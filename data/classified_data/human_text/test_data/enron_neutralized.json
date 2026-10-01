@@ -1,0 +1,482 @@
+[
+  {
+    "id": "email_320",
+    "category": "email",
+    "text": "Message-ID:  Date: Wed, 10 Oct 2001 08:42:23 -0700 (PDT) From: To: Subject: Turbine Puts Broker/Agency - EOL Mime-Version: 1.0 Content-Type: text/plain; charset=us-ascii Content-Transfer-Encoding: 7bit X-From: Calger, Christopher F.  X-To: Kitchen, Louise  X-cc:  X-bcc:  X-Folder: \\ExMerge - Kitchen, Louise\\'Americas\\Portland X-Origin: KITCHEN-L X-FileName: louise kitchen 2-7-02.pst Louise, A third party developer wants to pay us a small fee ($75K - $100K) for the right to use EOL.  They own LM6000's and want to buy puts.  Understandably we offered them a very high premium and a very low strike so they instead want to pay us for the distribtion channel.   Even though they may be competing with our turbine position, I think we should do it subject to legal.   Steve Thome is talking with Brad Richter about it.",
+    "source": "Enron Email Dataset"
+  },
+  {
+    "id": "email_321",
+    "category": "email",
+    "text": "Message-ID:  Date: Fri, 11 Jan 2002 11:37:40 -0800 (PST) From: To:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, paul.y' Subject: Steve Harris' Staff Meeting Mime-Version: 1.0 Content-Type: text/plain; charset=us-ascii Content-Transfer-Encoding: 7bit X-From: Robertson, Audrey  X-To: Alters, Dennis , Asante, Ben , Betancourt, Ramona  , Blair, Lynn , Burleson, Bob , Centilli, James , Corman, Shelley , Doll, Jeanette , Donoho, Lindy , Frazier, Perry , Geaccone, Tracy , Gottsponer, Morgan , Graves, Jerry , Harris, Steven , Hass, Glen , Keller, John R. , Kilmer III, Robert , Kowalke, Terry , Lohman, TK , Lokay, Michelle , Lokey, Teb , Matthews, Ron , McConnell, Mark , Moore, Jan , Pribble, Dan , Pryor, Tony , Rapp, Bill , Robertson, Audrey , Schoolcraft, Darrell , Veatch, Stephen , Watson, Kimberly , Y'barbo, Paul  X-cc:  X-bcc:  X-Folder: \\Shelley_Corman_Mar2002\\Corman, Shelley\\Deleted Items X-Origin: Corman-S X-FileName: scorman (Non-Privileged).pst Please be informed, because of the upcoming Martin Luther King Holiday, Monday, January 21, Steve's staff meeting will be held on \t\t\t\tTuesday January 22, same time, 2:30p - 3:30p, ECN-1336. Please adjust your calendars, adr Audrey D. Robertson Transwestern Pipeline Company  email address: (713) 853-5849 (713) 646-2551 Fax",
+    "source": "Enron Email Dataset"
+  },
+  {
+    "id": "email_322",
+    "category": "email",
+    "text": "Message-ID:  Date: Tue, 21 Nov 2000 11:44:00 -0800 (PST) From: To: Subject: Research - Enron Cc: Mime-Version: 1.0 Content-Type: text/plain; charset=us-ascii Content-Transfer-Encoding: 7bit Bcc: X-From: Keith E Power X-To: Liz M Taylor X-cc: Greg Whalley X-bcc:  X-Folder: \\Lawrence_Whalley_Dec2000\\Notes Folders\\Notes inbox X-Origin: Whalley-L X-FileName: gwhalley.nsf Liz - I'm not sure if Greg pulls his own cc:Mail?  If not please print off  the attached and give to him.  JP Morgan research dated November 6th - has an  excellent discussion of Enron Net Works and a new 12-month target price on  the stock of $130.00 / share.  I ran in to him on the elevator and told him I  would forward a copy of it. Thnx,",
+    "source": "Enron Email Dataset"
+  },
+  {
+    "id": "email_323",
+    "category": "email",
+    "text": "Message-ID:  Date: Thu, 2 Aug 2001 11:28:26 -0700 (PDT) From: To: Subject: SQL2 Mime-Version: 1.0 Content-Type: text/plain; charset=us-ascii Content-Transfer-Encoding: 7bit X-From: Platter, Phillip  X-To: Maxwell, Dan  X-cc:  X-bcc:  X-Folder: \\ExMerge - Platter, Phillip\\Sent Items X-Origin: PLATTER-P X-FileName: phillip platter 6-26-02.PST Select Lkp.DateValue, Lkp.YearNum, Lkp.MonthNum, Lkp.DayOfWeekName, Beauty.ZoneCode, Beauty.PeakOrOffPeak, Beauty.Price, Beauty.RTOffer, Beauty.Long, Beauty.Short, ISO.Inc, ISO.Dec, (Beauty.Price-ISO.Inc) ISOShort, (ISO.Dec-Beauty.Price) ISOLong From (Select Lkp.DateValue, Lkp.PeakOrOffPeak, ISO.ZoneCode, avg(ISO.PriceInc) Inc, Avg(ISO.PriceDec) Dec From LkpCalendar_Definitions Lkp, CA_ISOExPost10Price ISO Where Lkp.DateTimeValue = ISO.CADateTime Group By Lkp.DateValue, Lkp.PeakOrOffPeak, ISO.ZoneCode) ISO, (Select DA.CADateTime, DA.ZoneCode, DA.PeakOrOffPeak, DA.Price, RT.RTBid, RT.RTOffer, ((RT.RTBid)-DA.Price) Long, ((DA.Price)-RT.RTOffer) Short From (Select Lkp.DateValue, Lkp.PeakOrOffPeak, RT.Entity, Avg(RT.Bid) RTBid, Avg(RT.Offer) RTOffer From CA_HourlyBidOffer RT, LkpCalendar_Definitions Lkp Where Lkp.DateTimeValue = RT.CADateTime Group By Lkp.DateValue, Lkp.PeakOrOffPeak, RT.Entity) RT, WEST_SPOTINDEX DA Where RT.Entity = DA.ZoneCode AND RT.DateValue = DA.CADateTime AND RT.PeakOrOffPeak = DA.PeakOrOffPeak) Beauty, LkpCalendar_Definitions Lkp Where Lkp.DateTimeValue = Beauty.CADateTime AND Beauty.PeakOrOffPeak = ISO.PeakOrOffPeak AND Lkp.DateValue = ISO.DateValue ORDER BY LKP.DATEVALUE",
+    "source": "Enron Email Dataset"
+  },
+  {
+    "id": "email_324",
+    "category": "email",
+    "text": "Message-ID:  Date: Fri, 5 Oct 2001 07:43:56 -0700 (PDT) From: To: marwede'.', montgomery'.',  \triege'.', amfam ,  \tabbott'.', hutcheson'.',  \tkueck'.', barth'.',  \tpowers'.', spethman'.',  \tsacks'.', brooks'.',  \tdefalco-menge'.', work ,  \telvig'.', crabtree'.',, lund'.',  \twilson'.', hoglund'.' Subject: FW: A Message From Boeing Cc:,, Mime-Version: 1.0 Content-Type: text/plain; charset=us-ascii Content-Transfer-Encoding: 7bit Bcc:,, X-From: Franksen, Robert  X-To: 'Andy Marwede' , 'Brian Montgomery' , 'Craig Riege' , 'Craig Riege (amfam)' , 'Dave Abbott' , 'Don Hutcheson' , 'James Kueck' , 'John Barth' , 'John Powers' , 'John Spethman' , 'Karen Sacks' , 'Michael Brooks' , 'Melissa Defalco-Menge' , 'Mike Turchi (work)' , 'Molly Elvig' , 'Peter Crabtree' , Platter, Phillip , 'Randy Lund' , 'Reid Wilson' , 'Rob Hoglund'  X-cc: '', '', '' X-bcc:  X-Folder: \\ExMerge - Platter, Phillip\\Inbox X-Origin: PLATTER-P X-FileName: phillip platter 6-26-02.PST Check out the file below.  It's a classic!  Robert W. Franksen  Real Estate Administration Manager  USG CORPORATION  125 South Franklin Street  Chicago, IL  60606  (312) 606-4507 phone  (312) 606-3879 fax",
+    "source": "Enron Email Dataset"
+  },
+  {
+    "id": "email_325",
+    "category": "email",
+    "text": "Message-ID:  Date: Thu, 17 May 2001 09:19:00 -0700 (PDT) From: To:,,,,,,,,,,,,,,,,,,,,,, Subject: Technical and Commercial Support Performance Review Meeting Date Cc:,, Mime-Version: 1.0 Content-Type: text/plain; charset=us-ascii Content-Transfer-Encoding: 7bit Bcc:,, X-From: Kim Melodick X-To: Scott Neal, Frank W Vickers, Fred Lagrasta, Craig Breslau, Brian Redmond, Jean Mrha, Laura Luce, Julie A Gomez, Craig A Fox, C John Thompson, Scott Josey, Ed McMichael, Kevin M Presto, Edward D Baughman, Lloyd Will, Rogers Herndon, Mark Dana Davis, Fletcher J Sturm, Doug Gilbert-Smith, Corry Bentley, Ben Jacoby, Berney C Aucoin, W David Duran X-cc: Jeanie Slone, John J Lavorato, Louise Kitchen X-bcc:  X-Folder: \\Fletcher_Sturm_Jun2001\\Notes Folders\\All documents X-Origin: Sturm-F X-FileName: fsturm.nsf Please Mark your calendar.....    The ENA Gas and Power Technical and Commercial Support Performance Review  Meeting will be tentatively held on June 21, 2001.  Details to follow.",
+    "source": "Enron Email Dataset"
+  },
+  {
+    "id": "email_326",
+    "category": "email",
+    "text": "Message-ID:  Date: Wed, 10 Jan 2001 03:53:00 -0800 (PST) From: To:,,, Subject: Saxet Canales into King Ranch - Balancing issue Cc:,, Mime-Version: 1.0 Content-Type: text/plain; charset=us-ascii Content-Transfer-Encoding: 7bit Bcc:,, X-From: Mary Poorman X-To: Vance L Taylor, Daren J Farmer, Robert Cotten, Fred Boas X-cc: Edward Terry, Melissa Graves, Rita Wynne X-bcc:  X-Folder: \\Darren_Farmer_Jun2001\\Notes Folders\\Discussion threads X-Origin: Farmer-D X-FileName: dfarmer.nsf FYI -  We are having some \"after-the-fact\" balancing issues with King Ranch.  I just  spoke with Carol regarding our net position with the plant, she has informed  me that the Saxet Canales production we are buying at the inlet has been  averaging approximately 3,850 Dth/day for January, and has been producing at  or around that level since November.  We don't have eyes at the meter,  however, Carol was brought online this past week, and I will be receiving  production information on a regular basis to balance redeliveries. We have been scheduling 838 to 1,045 Dth/day at the meter.  We need to gross  up for Jan in order to ensure that we capture our volumes correctly and do  not create additional balancing issues with the plant.",
+    "source": "Enron Email Dataset"
+  },
+  {
+    "id": "email_327",
+    "category": "email",
+    "text": "Message-ID:  Date: Fri, 12 Oct 2001 13:13:08 -0700 (PDT) From: Subject: Corporate Change Control - Additions Cc:, Mime-Version: 1.0 Content-Type: text/plain; charset=us-ascii Content-Transfer-Encoding: 7bit Bcc:, X-From: ETS Solution Center,  X-To: Enron Everyone_ET&, Enron, Enron X-cc: Rich, Sue , ETS Omaha Solution Center  X-bcc:  X-Folder: \\TLOKEY (Non-Privileged)\\Deleted Items X-Origin: Lokey-T X-FileName: TLOKEY (Non-Privileged).pst An emergency change control has been submitted for implementation this weekend... Oct.   13\tFrom 12:00 - 1:00 p.m., Telephony Services will reboot the back-up processor on the Cajun ATM Network.  This change is necessary to alleviate dropped calls in EB, ECS and 3AC due to an unstable environment on the back-up processor.   No impact is expected. ETS Solution Center - Houston, at 713-345-4745 ETS Solution Center - Omaha, at 402-398-7454",
+    "source": "Enron Email Dataset"
+  },
+  {
+    "id": "email_328",
+    "category": "email",
+    "text": "Message-ID:  Date: Tue, 24 Oct 2000 09:14:00 -0700 (PDT) From: To: Subject: RE: Request Admissions Package Mime-Version: 1.0 Content-Type: text/plain; charset=us-ascii Content-Transfer-Encoding: 7bit X-From: \"Texas MBA\"  X-To: \"Benjamin Rogers\"  X-cc:  X-bcc:  X-Folder: \\Benjamin_Rogers_Dec2000_1\\Notes Folders\\All documents X-Origin: Rogers-B X-FileName: brogers.nsf for your interest in the McCombs School of Business at the University of Texas at Austin.  There is an electronic version of the application currently available at our website: This version will expedite the admission process, as well as save you postage fees.  The website also contains a wealth of information about the Texas MBA.  If you do not have access to the Internet, please reply here stating in the subject line \"SEND HARD COPY ONLY\"  and in the body request an application. The University's graduate catalog is also available at the following website: again for your interest in our program, and please contact us if you need additional information Julia Hafener and Sean P. Maloney Texas Admissions Committee, Directors McCombs Graduate School of Business University of Texas at Austin (800) 658-9227",
+    "source": "Enron Email Dataset"
+  },
+  {
+    "id": "email_329",
+    "category": "email",
+    "text": "Message-ID:  Date: Thu, 24 Aug 2000 01:55:00 -0700 (PDT) From: To: Subject: Re: UK RAB Multiples Cc: Mime-Version: 1.0 Content-Type: text/plain; charset=us-ascii Content-Transfer-Encoding: 7bit Bcc: X-From: Vince J Kaminski X-To: Michael Anderson X-cc: Vince J Kaminski X-bcc:  X-Folder: \\Vincent_Kaminski_Jun2001_3\\Notes Folders\\Sent X-Origin: Kaminski-V X-FileName: vkamins.nsf Michael, for the information. We shall have the  results for you by tomorrow morning. Vince \tMichael Anderson @ AZURIX \t08/23/2000 07:48 PM \t To: Vince J Kaminski/HOU/ cc:  Subject: UK RAB Multiples I talked with Keith Harris, our CFO at Wessex, about the RAB multiple graph I  gave you.  He expressed that the Wessex people had originated the data and  that the graph was correct, to the best of their knowledge.  The only (but  very important correction) is that they started the graph at an index of  100%, which does not imply a 100% of RAB multiple.  Rather, the initial RAB  multiple was around 80%, implying that the entire line should be taken down  by 20 percentile points.  Thus the all time hime in late 98 should be closer  to the 1.3x RAB that I had targeted during our discussion.  Please call Keith  if he has not yet contact you.",
+    "source": "Enron Email Dataset"
+  },
+  {
+    "id": "email_330",
+    "category": "email",
+    "text": "Message-ID:  Date: Wed, 16 Feb 2000 03:57:00 -0800 (PST) From: To: Subject: Photo from Matthew Gillaspie Mime-Version: 1.0 Content-Type: text/plain; charset=us-ascii Content-Transfer-Encoding: 7bit X-From: X-To: X-cc:  X-bcc:  X-Folder: \\Gerald_Nemec_Dec2000_June2001_1\\Notes Folders\\Personal X-Origin: NEMEC-G X-FileName: gnemec.nsf One more roll to review . . . this one includes our private tour of the  island while the scuba-folk did their thing on Monday.  Note the one of Mark  sleeping away the highly educational tour talk we were receiving enroute on  the southeast side of the island.",
+    "source": "Enron Email Dataset"
+  },
+  {
+    "id": "email_331",
+    "category": "email",
+    "text": "Message-ID:  Date: Tue, 5 Dec 2000 07:57:00 -0800 (PST) From: To: Subject: Re: Mime-Version: 1.0 Content-Type: text/plain; charset=us-ascii Content-Transfer-Encoding: 7bit X-From: Robin Rodrigue X-To: Gabriel Monroy X-cc:  X-bcc:  X-Folder: \\Robin_Rodrique_Jun2001\\Notes Folders\\All documents X-Origin: Rodrique-R X-FileName: rrodri2.nsf What did you charge $1,000 for?  I haven't gotten anywhere on my  accomplishments.  Right after I emailed you we discovered some major issues  with the basis report, so it looks like I'll be doing accomplishments  tonight.  I'm still hoping I can come to your game though.  It doesn't start  until 8:45 right? Bye, Robin",
+    "source": "Enron Email Dataset"
+  },
+  {
+    "id": "email_332",
+    "category": "email",
+    "text": "Message-ID:  Date: Fri, 2 Mar 2001 09:07:00 -0800 (PST) From: To:, Subject: Softs Information Cc:, Mime-Version: 1.0 Content-Type: text/plain; charset=us-ascii Content-Transfer-Encoding: 7bit Bcc:, X-From: Erin Willis X-To: Vince J Kaminski, Nelson Neale X-cc: Trena McFarland, Heather Kendall X-bcc:  X-Folder: \\Vincent_Kaminski_Jun2001_2\\Notes Folders\\Discussion threads X-Origin: Kaminski-V X-FileName: vkamins.nsf Attached is the UBS summary.  The UBS deal is confidential due to its large  size and the summary is an informal overview.  The deal structure has not  been defined; this sheet provides only rough details.  Call if you have any  questions. Erin ext 3-9677",
+    "source": "Enron Email Dataset"
+  },
+  {
+    "id": "email_333",
+    "category": "email",
+    "text": "Message-ID:  Date: Thu, 14 Dec 2000 02:20:00 -0800 (PST) From: To: Subject: Re: UPDATE - Meteorologist Search Cc:,,,, Mime-Version: 1.0 Content-Type: text/plain; charset=us-ascii Content-Transfer-Encoding: 7bit Bcc:,,,, X-From: Jennifer Fraser X-To: Mike A Roberts X-cc: Jeffrey A Shankman, Vince J Kaminski, Jose Marquez, Stephen W Bennett, Chris Mahoney X-bcc:  X-Folder: \\Vincent_Kaminski_Jun2001_2\\Notes Folders\\Discussion threads X-Origin: Kaminski-V X-FileName: vkamins.nsf Great work Mike! I will arrange interviews with the London folks while I'm there. Jen     \t \t \tFrom:  Mike A Roberts                           12/14/2000 09:54 AM \t To: Jennifer Fraser/HOU/, Jeffrey A Shankman/HOU/ cc: Vince J Kaminski/HOU/, Jose Marquez/Corp/, Stephen W  Bennett/HOU/  Subject: UPDATE - Meteorologist Search We have identified two good candatites who would be available for a London  interview the week of the 18th: 1. Kerryn Hawke 2. Stephen Cusack also strong but not available for that week is 3. Piero Chessa (working for ECMWF in Italy) we have a couple others here in the states if the London interviews don't  work out. I am forwarding under separate cover Kerryn and Stephen's CV's with telephone  numbers to Jen - - -  Mike",
+    "source": "Enron Email Dataset"
+  },
+  {
+    "id": "email_334",
+    "category": "email",
+    "text": "Message-ID:  Date: Mon, 6 Nov 2000 06:21:00 -0800 (PST) From: To: Subject: Re: LA DWP Cc:,,,, Mime-Version: 1.0 Content-Type: text/plain; charset=us-ascii Content-Transfer-Encoding: 7bit Bcc:,,,, X-From: Mary Hain X-To: Jeff Dasovich X-cc:@ENRON, James D Steffes, John M Forney, Susan J Mara, Tom Briggs X-bcc:  X-Folder: \\Jeff_Dasovich_Dec2000\\Notes Folders\\Notes inbox X-Origin: DASOVICH-J X-FileName: jdasovic.nsf All I know is they say it to our traders.  The rationale is to keep power in  California. From: Jeff on 11/06/2000 04:25 PM CST Sent by: Jeff To: Mary Hain/HOU/ cc:, James D Steffes/NA/, John M  Forney/HOU/, Susan J Mara/NA/, Tom Briggs/NA/  Subject: Re: LA DWP   Is this something they've said publicly?  If so, have they provided any  rationale?  Mary \t11/06/2000 02:36 PM \t\t  \t\t To:, Tom Briggs/NA/, Susan J  Mara/NA/, Jeff Dasovich/NA/, James D  Steffes/NA/ \t\t cc: John M Forney/HOU/ \t\t Subject: LA DWP The Los Angeles Department of Water and Power is refusing to sell outside of  California for less than $250.  This is diminishing liquidity in the market.   However, we can't call FERC and complain because munis are not regulated by  FERC.  Here is an example of something we should be bringing to NW  congressional members re why FERC should regulate the munis.",
+    "source": "Enron Email Dataset"
+  },
+  {
+    "id": "email_335",
+    "category": "email",
+    "text": "Message-ID:  Date: Fri, 7 Jul 2000 03:18:00 -0700 (PDT) From: To: Subject: A Few Times Still Available Mime-Version: 1.0 Content-Type: text/plain; charset=us-ascii Content-Transfer-Encoding: 7bit X-From: Robert Brooks  X-To: \"'GPCM Distribution'\"  X-cc:  X-bcc:  X-Folder: \\Vincent_Kaminski_Jun2001_1\\Notes Folders\\All documents X-Origin: Kaminski-V X-FileName: vkamins.nsf We still have a few time slots available for appointments with Bob Brooks while he is in Houston next week.  There are open slots on Tuesday (morning and afternoon) and Wednesday morning. Please reply to this e-mail with preferred date and time or call Bob at 323-663-4831 to schedule.",
+    "source": "Enron Email Dataset"
+  },
+  {
+    "id": "email_336",
+    "category": "email",
+    "text": "Message-ID:  Date: Wed, 6 Dec 2000 03:47:00 -0800 (PST) From: To: Subject: DEFERRAL PROGRAM ENROLLMENT DEADLINE IS FRIDAY Mime-Version: 1.0 Content-Type: text/plain; charset=ANSI_X3.4-1968 Content-Transfer-Encoding: quoted-printable X-From: Enron Announcements X-To: Eligible Employees X-cc:  X-bcc:  X-Folder: \\Peter_Keavey_Dec2000\\Notes Folders\\Notes inbox X-Origin: Keavey-P X-FileName: pkeavey.nsf                                               =20 This FRIDAY, DECEMBER 8, 2000 (5:00 p.m. CST) is the deadline for deferral= =20 program enrollment.  Following the deadline, no new elections or changes to= =20 existing elections will be accepted. =20 To learn more about your deferral program opportunities and to enroll for= =20 2001 deferrals, access eHRonline at   (Call the= =20 ISC Help Desk at 713-345-4727 if you need your ID or password to access the= =20 system.) 1. Review the program descriptions (attached to the Election Form) before y= ou=20 make your elections. 2. If you decide to defer compensation, complete the Election Form before= =20 Friday, December 8,  2000, 5:00 p.m. CST (the enrollment deadline). 3. Print your 2001 Election Form and Confirmation Statement right from the= =20 web site and you=01,re   finished!=20 DEFERRAL ENROLLMENT 2001",
+    "source": "Enron Email Dataset"
+  },
+  {
+    "id": "email_337",
+    "category": "email",
+    "text": "Message-ID:  Date: Wed, 11 Oct 2000 04:47:00 -0700 (PDT) From: To: Subject: Re: Assignment and Assumption Cc:, Mime-Version: 1.0 Content-Type: text/plain; charset=us-ascii Content-Transfer-Encoding: 7bit Bcc:, X-From: Alan Aronowitz X-To: Terri Harlan X-cc: Sara Shackleton, Sheila Glover X-bcc:  X-Folder: \\Sara_Shackleton_Dec2000_June2001_1\\Notes Folders\\All documents X-Origin: SHACKLETON-S X-FileName: sshackle.nsf Does ENA have an existing Account Agreement with Bear Stearns, which will  govern the transferred account? \tTerri Harlan \t10/11/2000 11:38 AM \t\t  \t\t To: Alan Aronowitz/HOU/, Sara Shackleton/HOU/ \t\t cc: Sheila Glover/HOU/ \t\t Subject: Assignment and Assumption I spoke with Bear Stearns this morning and all that they require to move an  account from one family to another is a letter signed by authorized  signatories.  I have drafted the letter and I will sent it to them if there  are no problems with this from the legal department.",
+    "source": "Enron Email Dataset"
+  },
+  {
+    "id": "email_338",
+    "category": "email",
+    "text": "Message-ID:  Date: Thu, 29 Jun 2000 03:50:00 -0700 (PDT) From: To:,,, Subject: System outage nomination impact, follow-up Mime-Version: 1.0 Content-Type: text/plain; charset=us-ascii Content-Transfer-Encoding: 7bit X-From: Robert Superty X-To: Sally Beck, Jeffrey A Shankman, Philippe A Bibi, Brent A Price X-cc:  X-bcc:  X-Folder: \\Sally_Beck_Dec2000\\Notes Folders\\All documents X-Origin: Beck-S X-FileName: sbeck.nsf As of 10:00 AM Thursday pipeline reports indicate that all of our resubmitted  nominations have been confirmed by the pipelines and our counterparties and  will be scheduled correctly.  These nominations were resubmitted on the first  Intraday cycle (6:00 PM on the day prior to flow). As a result I do not expect any monetary impact from yesterdays outage. I  will keep you posted if anything further develops. Bob Superty x30957",
+    "source": "Enron Email Dataset"
+  },
+  {
+    "id": "email_339",
+    "category": "email",
+    "text": "Message-ID:  Date: Thu, 2 May 2002 13:42:33 -0700 (PDT) From: To: Subject: BNP Paribas Commodity Futures NG MarketWatch for 05/02/02 Mime-Version: 1.0 Content-Type: text/plain; charset=us-ascii Content-Transfer-Encoding: 7bit X-From: X-To: X-cc:  X-bcc:  X-Folder: \\ExMerge - Parks, Joe\\Deleted Items X-Origin: PARKS-J X-FileName: joe parks 6-26-02.pst (See attached file: ng050202.pdf) This message and any attachments (the \"message\") is intended solely for the addressees and is confidential.  If you receive this message in error, please delete it and  immediately notify the sender. Any use not in accord with  its purpose, any dissemination or disclosure, either whole  or partial, is prohibited except formal approval. The internet can not guarantee the integrity of this message.  BNP PARIBAS (and its subsidiaries) shall (will) not  therefore be liable for the message if modified.",
+    "source": "Enron Email Dataset"
+  },
+  {
+    "id": "email_340",
+    "category": "email",
+    "text": "Message-ID:  Date: Fri, 14 Apr 2000 03:00:00 -0700 (PDT) From: To:,,,,,,,,, Subject: Yvette OOTO Cc:,,,,,,,,,, o',, Mime-Version: 1.0 Content-Type: text/plain; charset=us-ascii Content-Transfer-Encoding: 7bit Bcc:,,,,,,,,,, o',, X-From: Yvette G Connevey X-To: Jana Mills, Irena D Hogan, Barbara Lewis, Laura Harder, Patti Thompson, Mary Comello, Ragayle Pellum, Julissa Marron, Heather Choate, Lisa B Cousino X-cc: Chantelle Villanueva, Elizabeth Soto, Brenda F Herod, Lisa Csikos, Daren J Farmer, Mary M Smith, Rita Wynne, Steve Venturatos, Pat Clynes, Michael Walters, O'Neal D Winfree, Bryan Hull, David Baumbach X-bcc:  X-Folder: \\Darren_Farmer_Dec2000\\Notes Folders\\Logistics X-Origin: Farmer-D X-FileName: dfarmer.nsf I will be on vacation Monday, April 17th thru Friday, April 21st.   Elizabeth  Soto will be backing me up on Monday and Ragayle Pellum will back me up the  remainder of the week.  If you have any questions regarding Brenda's calendar, need to make changes,  or need to set up a meeting with her please contact Chantelle Villanueva at  ext3.6279. If you need assistance with anyone else's calendar who I support please  contact Ragayle.",
+    "source": "Enron Email Dataset"
+  },
+  {
+    "id": "email_341",
+    "category": "email",
+    "text": "Message-ID:  Date: Thu, 22 Mar 2001 20:49:00 -0800 (PST) From: To: Subject: RE: How many profit centers does EA have today? Mime-Version: 1.0 Content-Type: text/plain; charset=us-ascii Content-Transfer-Encoding: 7bit X-From: Faith Killen  X-To: Louise Kitchen  X-cc:  X-bcc:  X-Folder: \\ExMerge - Kitchen, Louise\\'Americas\\Mrha\\OOC X-Origin: KITCHEN-L X-FileName: louise kitchen 2-7-02.pst Just to ensure that I am supplying you with the correct information, by profit centers do you mean commercial teams? If so, we currently have 46- I took the count from our management summary (everything that falls into commercial, including structuring and fundamentals.) If this is not what you are looking for, please give me a ring and I'll be happy to pull whatever you need. I'm sorry I took so long get back with you- I've been tied up all afternoon.)",
+    "source": "Enron Email Dataset"
+  },
+  {
+    "id": "email_342",
+    "category": "email",
+    "text": "Message-ID:  Date: Mon, 24 Dec 2001 01:10:37 -0800 (PST) From: To: houston  Subject: NGI Publications - Monday, December 24th 2001 Mime-Version: 1.0 Content-Type: text/plain; charset=us-ascii Content-Transfer-Encoding: 7bit X-From:@ENRON X-To: Ward, Kim S (Houston)  X-cc:  X-bcc:  X-Folder: \\Kim_Ward_Jan2002_1\\Ward, Kim S (Houston)\\Deleted Items X-Origin: Ward-K X-FileName: kward (Non-Privileged).pst Dear Kim, This e-mail is automated notification of the availability of your current Natural Gas Intelligence Newsletter(s). Please use your username of \"kward\" and your password to access        NGI's Weekly Gas Price Index        Natural Gas Intelligence, the Weekly Newsletter If you have forgotten your password please visit    and we will send it to you. If you would like to stop receiving e-mail notifications when your publications are available, please reply to this message with REMOVE E-MAIL in the subject line. for your subscription. For information about other Intelligence Press products and services, including maps and glossaries visit our web site at  or call toll-free (800) 427-5747. ALL RIGHTS RESERVED. (c) 2001, Intelligence Press, Inc.",
+    "source": "Enron Email Dataset"
+  },
+  {
+    "id": "email_343",
+    "category": "email",
+    "text": "Message-ID:  Date: Wed, 9 Jan 2002 12:51:12 -0800 (PST) From: To: Subject: RE: E-Card from Hope Mime-Version: 1.0 Content-Type: text/plain; charset=us-ascii Content-Transfer-Encoding: 7bit X-From:@ENRON X-To: Mims, Patrice L.  X-cc:  X-bcc:  X-Folder: \\ExMerge - Mims, Patrice L.\\Deleted Items X-Origin: MIMS-P X-FileName: patrice mims 6-25-02.PST I am fine How are you and your family doing? and Happy New Year as well! I will put it in the car on Sunday :o) Love ya back!                     Patrice.L.Mims                     @enron.com            To:                                           cc:                     01/09/02 01:26        Subject:     RE: E-Card from Hope                     PM Hi honey, how are you? Yes, I'm dying to get my gown?  Anytime this weekend, how about bringing it to church on Sunday.  Just put it in your car. Love ya!",
+    "source": "Enron Email Dataset"
+  },
+  {
+    "id": "email_344",
+    "category": "email",
+    "text": "Message-ID:  Date: Thu, 16 Nov 2000 09:30:00 -0800 (PST) From: To: Subject: Status Mime-Version: 1.0 Content-Type: text/plain; charset=ANSI_X3.4-1968 Content-Transfer-Encoding: 7bit X-From: \"Mark Sagel\"  X-To: \"John Arnold\"  X-cc:  X-bcc:  X-Folder: \\John_Arnold_Dec2000\\Notes Folders\\Discussion threads X-Origin: Arnold-J X-FileName: Jarnold.nsf John: ? I'm not really sure what happened between us.? I was  under the impression  after my visit to Houston that we were about to enter into  a trial agreement  for my advisory work.? Somehow,?this never  occurred.? Did I say or do  something wrong to screw this  up??? ? I don't know if you've blown this whole thing off, but I still  hope you are  interested in trying?to create an arrangement.? As a  courtesy, here is my  report from this past weekend.? If you are no longer  interested in my work,  please tell me so.??Best wishes, ? Mark Sagel Psytech Analytics (410)308-0245?   - energy2000-1112.doc",
+    "source": "Enron Email Dataset"
+  },
+  {
+    "id": "email_345",
+    "category": "email",
+    "text": "Message-ID:  Date: Wed, 23 Jan 2002 12:13:53 -0800 (PST) From: To:,,,,,,,,,,, Subject: FW: Critical,OTHER,20010119,COLUMBIA GULF,007854581,Gas Quality  Specifications - REMINDER Cc:,,,,,,,,,,, Mime-Version: 1.0 Content-Type: text/plain; charset=us-ascii Content-Transfer-Encoding: 7bit Bcc:,,,,,,,,,,, X-From: Lamadrid, Victor  X-To: Halstead, Lia , Greif, Donna , Allwein, Robert , Driscoll-Ernest, Marde L. , Garcia, Clarissa , Goodell, Scott , Homco, Meredith , Loving, Scott , Ordway, Chris , Sanchez, Christina , Superty, Robert , Versen, Victoria  X-cc: Kelly, Katherine L. , Ames, Chuck , Barbe, Robin , Brawner, Sandra F. , Germany, Chris , Mckay, Brad , Mckay, Jonathan , Neal, Scott , Ring, Andrea , Taylor, Craig , Townsend, Judy , Vickers, Frank  X-bcc:  X-Folder: \\ExMerge - Ring, Andrea\\Deleted Items X-Origin: RING-A X-FileName: andrea ring 6-26-02.PST",
+    "source": "Enron Email Dataset"
+  },
+  {
+    "id": "email_346",
+    "category": "email",
+    "text": "Message-ID:  Date: Wed, 15 Nov 2000 05:59:00 -0800 (PST) From: To: Subject: Re: Broker Fees Mime-Version: 1.0 Content-Type: text/plain; charset=us-ascii Content-Transfer-Encoding: 7bit X-From: Kate Symes X-To: Kerri Thompson X-cc:  X-bcc:  X-Folder: \\kate symes 6-27-02\\Notes Folders\\'sent mail X-Origin: SYMES-K X-FileName: kate symes 6-27-02.nsf Changes have been made to deals 453152, 450710, 451976, and 454511. Kate Kerri 11/15/2000 12:55 PM To: Kate Symes/PDX/ cc:   Subject: Re: Broker Fees   you can go ahead and make the changes.    Kate Symes @ ECT                11/15/2000 10:20 AM To: Kerri Thompson/Corp/ cc:   Subject: Re: Broker Fees    453152   broker has .0075 - trader mistake/should be .0075 not .75  450710  broker has .0075 - trader mistake/should be .0075  451976  broker has .0075 - part of sleeve/either 451976 or 451977 should  have .0075 fee  457489  broker has .0075 - no broker fee  457465  broker has .0075 - no broker fee  454511  broker has .0075 - part of sleeve/either 454511 or 454512 should  have .0075 fee Would you like me to go ahead and make these changes?",
+    "source": "Enron Email Dataset"
+  },
+  {
+    "id": "email_347",
+    "category": "email",
+    "text": "Message-ID:  Date: Wed, 14 Jun 2000 06:21:00 -0700 (PDT) From: To:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, Subject: AGA for 6/9/00 is 78 Mime-Version: 1.0 Content-Type: text/plain; charset=us-ascii Content-Transfer-Encoding: 7bit X-From: Kenny J Soignet X-To: Phillip K Allen, John Arnold, Berney C Aucoin, Sandra F Brawner, Janet R Dietrich, Julie A Gomez, Keith Holst, Joseph Hrgovcic, Calvin Johnson, Heather Kendall, Robert E Lloyd, Thomas A Martin, Jean Mrha, Scott Neal, Jim Schwieger, Jeffrey A Shankman, Hunter S Shively, Kenny J Soignet, Colleen Sullivan, Denae Umbower, Paul T Lucci, Chris H Foster, Fred Lagrasta, Michael Cowan, Patricia Tlapek, Chris Connelly, Matthew Lenhart, Daniel Diamond, Per Sekse, Jennifer Fraser, Nicole La, Lee L Papayoti, Liz M Taylor, Brian Hoskins, Adam Wais, Kenneth Shulklapper, Marc Horowitz, Sunil Dalal, Robert Shiring, Clayton Vernon, Frank Hayden, Kimberly Hillis, Elsa Piekielniak X-cc:  X-bcc:  X-Folder: \\Scott_Neal_Jun2001\\Notes Folders\\Discussion threads X-Origin: Neal-S X-FileName: sneal.nsf AGA for 6/9/00 is 78",
+    "source": "Enron Email Dataset"
+  },
+  {
+    "id": "email_348",
+    "category": "email",
+    "text": "Message-ID:  Date: Wed, 29 Nov 2000 00:08:00 -0800 (PST) From: To:,, Subject: Employment Status - Eff. Dec. 1 Mime-Version: 1.0 Content-Type: text/plain; charset=us-ascii Content-Transfer-Encoding: 7bit X-From: Barry Tycholiz X-To: Fran L Mayes, Patricia Henry, Jeanie Slone X-cc:  X-bcc:  X-Folder: \\Barry_Tycholiz_Nov2001\\Notes Folders\\Discussion threads X-Origin: TYCHOLIZ-B X-FileName: btychol.nsf Fran and Tricia... this note is to confirm that I will be an employee of ENA  effective Dec. 1/ 00.  Fran, are you looking after payroll issues or is it  going to be Jeannie Sloan BT",
+    "source": "Enron Email Dataset"
+  },
+  {
+    "id": "email_349",
+    "category": "email",
+    "text": "Message-ID:  Date: Mon, 18 Jun 2001 08:30:00 -0700 (PDT) From: To: Subject: Re: INTERIM MODEL TALKING POINTS Cc:,,, Mime-Version: 1.0 Content-Type: text/plain; charset=us-ascii Content-Transfer-Encoding: 7bit Bcc:,,, X-From: Steve Walton X-To: James D Steffes X-cc: Christi L Nicolay, Richard Shapiro, Sarah Novosel, Steven J Kean X-bcc:  X-Folder: \\Steven_Kean_Nov2001_5\\Notes Folders\\Market structure X-Origin: KEAN-S X-FileName: skean.nsf Jim,  I have added my comments to your draft.  My concern with the \"Adopt PJM\"  approach is that it will become a fiat accompli with regard to congestion  management. and the nature of future transmission rights.  Once adopted as  the standard, nothing else will be accepted and any move to a decentralized  approach is highly unlikely.  Unlike the British, we have a hard time  changing horses because of our multi-jurisdictional Federal system of  government.  The PJM's lack of a secondary FTR market is more that just an allocation  problem.  If that were true, they New York would have a secondary market",
+    "source": "Enron Email Dataset"
+  },
+  {
+    "id": "email_350",
+    "category": "email",
+    "text": "Message-ID:  Date: Fri, 7 Dec 2001 12:46:28 -0800 (PST) From: To: houston  Subject: Default Cc:,,,,,,, Mime-Version: 1.0 Content-Type: text/plain; charset=us-ascii Content-Transfer-Encoding: 7bit Bcc:,,,,,,, X-From: \"Dolan, Jack\" @ENRON X-To: Ward, Kim S (Houston)  X-cc: Silva, Lawrence , Liu, Ruwen , Troncoso, Ignacio , Lins, Steven  X-bcc:  X-Folder: \\Kim_Ward_Jan2002_1\\Ward, Kim S (Houston)\\Inbox X-Origin: Ward-K X-FileName: kward (Non-Privileged).pst Hi Kim, I just got word through Coral that Enron Canada has defaulted on the delivery of our APEA gas.  I'm sure you're going through a lot of these but I need some details and contact names to get this resolved.  Please give me a call ASAP. Jack Dolan Energy Marketer / Trader City of Glendale Water & Power voice (818) 548-3247 Fax (818) 552-2852 email",
+    "source": "Enron Email Dataset"
+  },
+  {
+    "id": "email_351",
+    "category": "email",
+    "text": "Message-ID:  Date: Wed, 30 Aug 2000 04:01:00 -0700 (PDT) From: To: Subject: Re: Williams Mime-Version: 1.0 Content-Type: text/plain; charset=us-ascii Content-Transfer-Encoding: 7bit X-From: Eric Bass X-To: David Baumbach X-cc:  X-bcc:  X-Folder: \\Eric_Bass_Dec2000\\Notes Folders\\'sent mail X-Origin: Bass-E X-FileName: ebass.nsf just out of curiousity, would you do stephen davis for ricky williams  straight up?     \tEnron Capital Management \t \tFrom:  David Baumbach                           08/30/2000 10:44 AM \t To: Eric Bass/HOU/ cc:   Subject: Re: Williams   I know everyone will think I'm nuts but I want to hold on to Williams and  Moss.       \tEnron North America Corp. \t \tFrom:  Eric Bass                           08/30/2000 10:04 AM \t To: David Baumbach/HOU/ cc:   Subject: Williams Stephen Davis, Terry Glenn and Bill Schroeder for Williams, Moss, and Travis  Taylor?",
+    "source": "Enron Email Dataset"
+  },
+  {
+    "id": "email_352",
+    "category": "email",
+    "text": "Message-ID:  Date: Thu, 22 Feb 2001 08:34:00 -0800 (PST) From: To: Subject: Re: Dow Jones Index Prices - Database Access Mime-Version: 1.0 Content-Type: text/plain; charset=us-ascii Content-Transfer-Encoding: 7bit X-From: Kate Symes X-To: Cara Semperger X-cc:  X-bcc:  X-Folder: \\kate symes 6-27-02\\Notes Folders\\'sent mail X-Origin: SYMES-K X-FileName: kate symes 6-27-02.nsf I've started to transfer my Dow Jones e-mails into five separate folders  which can be found at: P:\\Scheduling\\Dow Jones - Cob\\Mead\\Mid-C\\NP-SP\\Palo  You can already access February's files for each of these delivery points,  and prior months will be coming in soon as I have free moments in the day. Kate Cara Semperger 02/22/2001 08:15 AM To: Kate Symes/PDX/ cc:   Subject: Re: Dow Jones Index Prices - Database Access   Yeah, people are already asking me where the chart is already c    Kate Symes                02/22/2001 08:14 AM To: Cara Semperger/PDX/ cc:   Subject: Re: Dow Jones Index Prices - Database Access Here's what I heard back from Tim. Do you want me to go ahead and save the  Dow Jones data to a shareable file in the meantime? Kate",
+    "source": "Enron Email Dataset"
+  },
+  {
+    "id": "email_353",
+    "category": "email",
+    "text": "Message-ID:  Date: Fri, 1 Dec 2000 09:12:00 -0800 (PST) From: To:,,,,,,,,,,,,,,,,,,,, Subject: August and September Westlaw Allocation Reports and Lexis Usage  Reports Mime-Version: 1.0 Content-Type: text/plain; charset=us-ascii Content-Transfer-Encoding: 7bit X-From: Sylvia Hu X-To: Michael Moran, Drew Fossum, Rex Rogers, Kathy Siess, Rita Bahner, Janet Place, Mark E Haedicke, Vicki Sharp, Connie Alvis, John Schwartzenburg, Bruce Lundstrom, Randy Young, Sandeep Katwala, Frank Sayre, Robert C Williams, Norma Tidrow, Paulette Obrecht, John Ale,, Becky Stephens, Darlene C Forsyth X-cc:  X-bcc:  X-Folder: \\Drew_Fossum_Dec2000_June2001_1\\Notes Folders\\Discussion threads X-Origin: FOSSUM-D X-FileName: dfossum.nsf Dear General Counsels: I have mentioned to you that we included Dow Jones and Public Records to the  exisiting Westlaw contract ( flat rate remains the same, but more databases  access) in August.    It took Westlaw Accounting long time to correct Aug.  and Sept. invoices to reflect the changes.  I apologize for the delay on this  reporting.  Please feel free to call me if you have any questions on the  reports.     Sylvia Hu Corporate and Law Information Services 713-853-6775",
+    "source": "Enron Email Dataset"
+  },
+  {
+    "id": "email_354",
+    "category": "email",
+    "text": "Message-ID:  Date: Fri, 21 Sep 2001 13:35:59 -0700 (PDT) From: To: Subject: Price Reservations 20 September 2001 Real-Time Market and 21  September 2001 Day-Ahead Market Mime-Version: 1.0 Content-Type: text/plain; charset=us-ascii Content-Transfer-Encoding: 7bit X-From:  X-To: X-cc:  X-bcc:  X-Folder: \\BROGERS (Non-Privileged)\\Rogers, Benjamin\\Inbox X-Origin: ROGERS-B X-FileName: BROGERS (Non-Privileged).pst writes to the NYISO_TECH_EXCHANGE Discussion List: The NYISO is reserving the following hours in the September 20, 2001 Real-Time Market per ECA 20010908B to verify prices: HQ:   8:00-9:00 and 22:00 NE:   8:00-9:00 and 22:00 OH:   8:00-9:00 and 22:00 PJM:  0:00-5:00, 8:00-9:00, and 22:00 All other prices in the September 20, 2001 Real-Time Market are correct. Prices in the September 21, 2001 Day-Ahead Market are correct. This e-mail information is a copy of the official posting which can be found at the following address of our website:",
+    "source": "Enron Email Dataset"
+  },
+  {
+    "id": "email_355",
+    "category": "email",
+    "text": "Message-ID:  Date: Fri, 4 May 2001 06:53:00 -0700 (PDT) From: To: Subject: Re: Total International Ltd. Cc:, Mime-Version: 1.0 Content-Type: text/plain; charset=us-ascii Content-Transfer-Encoding: 7bit Bcc:, X-From: Paul Maley X-To: Brant Reves X-cc: Lee Jackson, Sara Shackleton X-bcc:  X-Folder: \\Sara_Shackleton_Dec2000_June2001_2\\Notes Folders\\All documents X-Origin: SHACKLETON-S X-FileName: sshackle.nsf Brant We have passed them for SFA requirements in London so yes they can trade  through London no problem at all.  (see Regulatory tab in CAS) Any problems, let me know. Paul From: Brant Reves/ on 03/05/2001 08:30 CDT To: Paul Maley/LON/ cc: Lee Jackson/, Sara Shackleton/HOU/  Subject: Total International Ltd. Paul, I have a trader that is trying to trade financially with Total International  Ltd., but we have asked that he not until we can sort our some eligibility  issues.  Prior to speaking with Ben Hamida at Total last week, we had never  approached them for financial statements or a guaranty that would establish  them as elibible contract parties.  I noticed that we have significant  financial trading with them in London.  How have you established eligibilty?   My trader is asking, since he cannot trade under ENA with Total, if he can  sleave deals through London. Any ideas or insight would be helpful. brant",
+    "source": "Enron Email Dataset"
+  },
+  {
+    "id": "email_356",
+    "category": "email",
+    "text": "Message-ID:  Date: Wed, 29 Aug 2001 06:02:59 -0700 (PDT) From: To:,,,, Subject: RE: Testing PSW and Path Confirmation done on 8/23 Mime-Version: 1.0 Content-Type: text/plain; charset=us-ascii Content-Transfer-Encoding: 7bit X-From: Atta, Asem  X-To: Semperger, Cara , Bentley, Corry , Poston, David , Smith, Will , Venkataswami, Vishwanatha  X-cc:  X-bcc:  X-Folder: \\ExMerge - Semperger, Cara\\Deleted Items X-Origin: SEMPERGER-C X-FileName: cara semperger 6-26-02.PST Cara, \tYou are correct, if run with the params you supplied there are no results.. I did go ahead and check the option to 'Include Cross Portfolio Deals' and deals did then show up.. please do try it with that option checked and let me know. Asem x31700",
+    "source": "Enron Email Dataset"
+  },
+  {
+    "id": "email_357",
+    "category": "email",
+    "text": "Message-ID:  Date: Thu, 20 Sep 2001 11:34:52 -0700 (PDT) From: To:, credit , Subject: FW: Assignment of crude/Brent spread trades from ECTRIC to ENA Cc: Mime-Version: 1.0 Content-Type: text/plain; charset=ANSI_X3.4-1968 Content-Transfer-Encoding: 7bit Bcc: X-From: Rohauer, Tanya  X-To: Shackleton, Sara , Williams, Jason R (Credit) , Nelson, Roderick  X-cc: Jones, Tana  X-bcc:  X-Folder: \\SSHACKL (Non-Privileged)\\Shackleton, Sara\\Inbox X-Origin: Shackleton-S X-FileName: SSHACKL (Non-Privileged).pst Problem is that if Harvard does a deal with ENA and ENA back-to-backs it withe ECTRIC, we lose it from an exposure perspective. ENA probably never records the deal since it has a closed position. Then ECTRIC thinks it has a position with ENA so we lose the third party exposure.  The simple answer, I think, is if they want to trade Brent on EOL, then they probably need an ECTRIC ISDA since ENA cannot trade Brent on EOL, right? Tanya",
+    "source": "Enron Email Dataset"
+  },
+  {
+    "id": "email_358",
+    "category": "email",
+    "text": "Message-ID:  Date: Mon, 16 Oct 2000 04:04:00 -0700 (PDT) From: To:, Subject: Re: Prepaid Contracts Mime-Version: 1.0 Content-Type: text/plain; charset=us-ascii Content-Transfer-Encoding: 7bit X-From: Sara Shackleton X-To: Tana Jones, Taffy Milligan X-cc:  X-bcc:  X-Folder: \\Tanya_Jones_Dec2000\\Notes Folders\\All documents X-Origin: JONES-T X-FileName: tjones.nsf These are not all my files.  Some were Carol's, Mary picked up a Yosemite and  perhaps Mark handled one or two. \tTana Jones \t10/16/2000 10:56 AM \t\t  \t\t To: Taffy Milligan/HOU/ \t\t cc: Sara Shackleton/HOU/ \t\t Subject: Prepaid Contracts Taffy,  these are all finance deals that Sara worked on.  Can you work with  her to get copies of the ISDA Masters for this guy in the Audit group.  Check  Lotus Notes to see if we have blue files, and if not, check w/Sara.",
+    "source": "Enron Email Dataset"
+  },
+  {
+    "id": "email_359",
+    "category": "email",
+    "text": "Message-ID:  Date: Thu, 17 May 2001 01:15:00 -0700 (PDT) From: To: Subject: nat gas strips as hot links 5/17 Mime-Version: 1.0 Content-Type: text/plain; charset=us-ascii Content-Transfer-Encoding: 7bit X-From: X-To: X-cc:  X-bcc:  X-Folder: \\Peter_Keavey_Jun2001\\Notes Folders\\All documents X-Origin: Keavey-P X-FileName: pkeavey.nsf The information contained herein is based on sources that we believe to be reliable, but we do not represent that it is accurate or complete.  Nothing contained herein should be considered as an offer to sell or a solicitation of an offer to buy any financial instruments discussed herein.  Any opinions expressed herein are solely those of the author.  As such, they may differ in material respects from those of, or expressed or published by on behalf of Carr Futures or its officers, directors, employees or affiliates.  , 2001 Carr Futures The charts are now available on the web by clicking on the hot link(s) contained in this email. If for any reason you are unable to receive the charts via the web, please contact me via email and I will email the charts to you as attachments. Nat Gas Summer Strip Nat Gas Winter Strip Nat Gas Calendar Strip Carr Futures 150 S. Wacker Dr., Suite 1500 Chicago, IL 60606  USA Tel:  312-368-6149 Fax:  312-368-2281",
+    "source": "Enron Email Dataset"
+  },
+  {
+    "id": "email_360",
+    "category": "email",
+    "text": "Message-ID:  Date: Tue, 27 Feb 2001 08:02:00 -0800 (PST) From: To: Subject:  MAC Clauses Cc:, Mime-Version: 1.0 Content-Type: text/plain; charset=us-ascii Content-Transfer-Encoding: 7bit Bcc:, X-From: Tana Jones X-To: Paul Radous X-cc: Mary Cook, Sara Shackleton X-bcc:  X-Folder: \\Tanya_Jones_June2001\\Notes Folders\\All documents X-Origin: JONES-T X-FileName: tjones.nsf Per our meeting, attached are the current forms of MAC Clauses.  I have added  at the end of the list, the Event of Default for change in ownership because  I know that one comes up frequently.  Also, I don't know if you want to also  suggest that the other trading groups work from our guaranty forms as well as  our LC form. The Legal heads of each of the trading groups are: Mark Taylor:  Financial Trading Jeff Hodge:  Physical Gas Trading Elizabeth Sager:  Physical Power Trading Alan Aronowitz:  Physical Global Markets (Liquids, Plastics, Coal, Emissions  & Metals) Julie Murray:  Physical Industrial Markets (Pulp & Paper, Steel)",
+    "source": "Enron Email Dataset"
+  },
+  {
+    "id": "email_361",
+    "category": "email",
+    "text": "Message-ID:  Date: Fri, 30 Mar 2001 01:28:00 -0800 (PST) From: To: Subject: Direct Deposit Advice for March 30, 2001 Mime-Version: 1.0 Content-Type: text/plain; charset=us-ascii Content-Transfer-Encoding: 7bit X-From: Enron Announcements X-To: Payroll message X-cc:  X-bcc:  X-Folder: \\Tanya_Jones_June2001\\Notes Folders\\Notes inbox X-Origin: JONES-T X-FileName: tjones.nsf Due to a delay with the printing of the direct deposit advices for the March  30th payday, the advices will be distributed later than normal.  We  anticipate the majority of the advices will be received by Friday  afternoon.   Please be assured this does not impact the deposit of funds to  your bank account.  Your funds will be available on payday, Friday, March  30th. Please remember that eHRonline provides functionality which allows you to  electronically access your earnings statement.  If you need help with your  logon id or password, please use the automated reset password and id lookup  process online.  If you need further assistance with your ID or password,  please contact the ISC Call Center at 713-345-4727. We apologize for any inconvenience this may cause. Corporate Payroll 713-345-5555",
+    "source": "Enron Email Dataset"
+  },
+  {
+    "id": "email_362",
+    "category": "email",
+    "text": "Message-ID:  Date: Thu, 10 May 2001 00:40:00 -0700 (PDT) From: To:,,,,,,,,,,,,,,,,,,,,,,,,,,,,, Subject: Long Beach Power Distribution Company, LLC - Withdrawal of  Qualification Mime-Version: 1.0 Content-Type: text/plain; charset=us-ascii Content-Transfer-Encoding: 7bit X-From: Lillian Bailey X-To: Stacey A Aune, Cynthia Barrow, James L Bouillion, Teresa Callahan, Charles Cheek, Kate Cole, Larry Dallman, Hardie Davis, James Derrick, Carol Essig, Mark Holsworth, Sylvia Hu, Kelly Johnson, Frazier King, Wanda LaBaume, John J Lavorato, Johnson Leo, Ling Li, Matt Maxwell, Jerry Thomas Moore, Julia Murray, Mary Perkins, Lynda Pham, Janice Priddy, Taria Reed, Greek Rice, SAP Master, Becky Stephens, John Swafford, Greg Whalley, Greg Whiting X-cc:  X-bcc:  X-Folder: \\Lawrence_Whalley_Jun2001\\Notes Folders\\Discussion threads X-Origin: Whalley-L X-FileName: gwhalley.nsf Long Beach Power Distribution Company, LLC  We have been requested by ENA to file for withdrawal of Long Beach Power  Distribution Company, LLC's qualification to conduct business in the State of  Louisiana.  If you are aware of any reason NOT to withdraw from this state,  please advise me no later than Thursday, May 24, 2001.  If we receive no  objections, we will proceed with withdrawal procedures. Lillian R. Bailey Administrator Corporate Services EB4804A Phone 713/853-3577 Fax 713/646-8007",
+    "source": "Enron Email Dataset"
+  },
+  {
+    "id": "email_363",
+    "category": "email",
+    "text": "Message-ID:  Date: Fri, 12 Oct 2001 07:29:46 -0700 (PDT) From: To:,,,,,,  \tpaul.y' Subject: FW: California Capacity Report for Week of 10/8-10/12 Cc: Mime-Version: 1.0 Content-Type: text/plain; charset=us-ascii Content-Transfer-Encoding: 7bit Bcc: X-From: Lokay, Michelle  X-To: Harris, Steven , Watson, Kimberly , Lindberg, Lorraine , Lohman, TK , Donoho, Lindy , McConnell, Mark , Y'Barbo, Paul  X-cc: Lokay, Michelle  X-bcc:  X-Folder: \\KWATSON (Non-Privileged)\\Watson, Kimberly\\California X-Origin: Watson-K X-FileName: KWATSON (Non-Privileged).pst Transwestern's average deliveries to California were 957 MMBtu/d (88%), with San Juan lateral throughput at 872 MMBtu/d.  Total East deliveries averaged 470 MMBtu/d.   El Paso's average deliveries to California were 1857 MMBtu/d (70%): - PG&ETop, capacity of 1140 MMBtu/d, deliveries of 578 MMBtu/d (51%) - SoCalEhr, capacity 981 MMBtu/d, deliveries of 823 MMBtu/d (84%) - SoCalTop, capacity 535 MMBtu/d, deliveries of 456 MMBtu/d (85%) Friday's posted Gas Daily prices: \tSoCal gas, large pkgs\t  2.31 (+.185) \tPG&E, large pkgs\t  2.26 (+.23) \tTW San Juan\t\t  2.06 (+.39)  \tTW Permian\t\t  2.19 (+.22) Enron Online bases: \t\tNov-Mar\t\tApr-Oct Perm-CA\t.21 (+.05)\t    \t.23 (+.03) SJ - CA\t.28 (+.04)  \t       \t.44 (+.01) SJ-Waha\t.10 (-.01)\t       \t.26 (-.01)\t Perm-Waha\t.03 (even)                 \t.04 (even)",
+    "source": "Enron Email Dataset"
+  },
+  {
+    "id": "email_364",
+    "category": "email",
+    "text": "Message-ID:  Date: Fri, 11 Jan 2002 06:30:39 -0800 (PST) From: To:,,,,,,  \tpaul.y' Subject: FW: California Capacity Report for Week of 12/31-01/04 Cc:, Mime-Version: 1.0 Content-Type: text/plain; charset=us-ascii Content-Transfer-Encoding: 7bit Bcc:, X-From: Lokay, Michelle  X-To: Harris, Steven , Watson, Kimberly , Lindberg, Lorraine , Lohman, TK , Donoho, Lindy , McConnell, Mark , Y'barbo, Paul  X-cc: Robertson, Audrey , Lokay, Michelle  X-bcc:  X-Folder: \\Michelle_Lokay_Mar2002\\Lokay, Michelle\\Sent Items X-Origin: Lokay-M X-FileName: mlokay (Non-Privileged).pst Transwestern's average deliveries to California were 855 MMBtu/d (79%), with San Juan lateral throughput at 839 MMBtu/d.  Total East deliveries averaged 468 MMBtu/d.   El Paso's average deliveries to California were 1673 MMBtu/d (57%): - PG&ETop, capacity of 1140 MMBtu/d, deliveries of 343 MMBtu/d (30%) - SoCalEhr, capacity 1250 MMBtu/d, deliveries of 854 MMBtu/d (68%) - SoCalTop, capacity 540 MMBtu/d, deliveries of 476 MMBtu/d (88%) Friday's posted Gas Daily prices: \tSoCal gas, large pkgs\t  2.135 (-.215) \tPG&E, large pkgs\t  2.09 (-.20) \tTW San Juan\t\t  2.01     \tTW Permian\t\t  2.04 (-.23) Enron basis:\tn/a",
+    "source": "Enron Email Dataset"
+  },
+  {
+    "id": "email_365",
+    "category": "email",
+    "text": "Message-ID:  Date: Mon, 24 Jul 2000 02:14:00 -0700 (PDT) From: To: Subject: Re: Bellingham Cold Storage ISDA Master Mime-Version: 1.0 Content-Type: text/plain; charset=us-ascii Content-Transfer-Encoding: 7bit X-From: John Malowney X-To: Tana Jones X-cc:  X-bcc:  X-Folder: \\Tanya_Jones_Dec2000\\Notes Folders\\All documents X-Origin: JONES-T X-FileName: tjones.nsf Tana, a couple of things.... have you heard anything back from Bellingham  Cold Storage and secondly I'd like you to send an ISDA to the following  party.  Let me know if you have any questions.   John Mr. Allan Warman Energy Resources Management The Boeing Company P.O. Box 3707  MC 7A-XF Seattle, WA 98124-2207 If need be his phone number is (425) 865-6944. From: Tana Jones on 06/30/2000 02:36 PM CDT To:,, cc: John Malowney/HOU/, Tracy Ngo/HOU/, Carol St  Clair/HOU/  Subject: Bellingham Cold Storage ISDA Master Attached please find a draft of the Schedule to the ISDA Master Agreement  between Bellingham Cold Storage Co. and Enron North America Corp.  Please  call Carol St. Clair, Assistant General Counsel, at (713) 853-3989 with any  questions or comments you may have.  My direct dial number is (713) 853-3399.",
+    "source": "Enron Email Dataset"
+  },
+  {
+    "id": "email_366",
+    "category": "email",
+    "text": "Message-ID:  Date: Thu, 1 Mar 2001 07:24:00 -0800 (PST) From: To: Subject: Re: ISDA Presentation Cc:,, Mime-Version: 1.0 Content-Type: text/plain; charset=us-ascii Content-Transfer-Encoding: 7bit Bcc:,, X-From: Elizabeth Sager X-To:@ENRON X-cc:,, X-bcc:  X-Folder: \\Elizabeth_Sager_Nov2001\\Notes Folders\\Sent X-Origin: Sager-E X-FileName: esager.nsf Hi guys  In fear of the future I decided today to go ahead and prepare an outline of   things we could talk about on Tues.  An unproofed draft of the brief  presentation will be sent to you by my assistant.  Please feel free to mark  up, delete or supplement.  On Mon when we talk and divy up parts , each  person can then finish out the presentation as they want it.  .  Dede I'll call you on Monday at 930 and then we can conference Harlan in.    for everybody's help and have a great weekend.",
+    "source": "Enron Email Dataset"
+  },
+  {
+    "id": "email_367",
+    "category": "email",
+    "text": "Message-ID:  Date: Tue, 27 Jul 1999 01:47:00 -0700 (PDT) From: To: Subject: Re: Canadian utilities Mime-Version: 1.0 Content-Type: text/plain; charset=us-ascii Content-Transfer-Encoding: 7bit X-From: Sara Shackleton X-To: Susan Bailey X-cc:  X-bcc:  X-Folder: \\Sara_Shackleton_Dec2000_June2001_1\\Notes Folders\\Sent X-Origin: SHACKLETON-S X-FileName: sshackle.nsf Are any of these yours?  What's the status?  We need to respond.  SS",
+    "source": "Enron Email Dataset"
+  },
+  {
+    "id": "email_368",
+    "category": "email",
+    "text": "Message-ID:  Date: Tue, 25 Sep 2001 14:33:49 -0700 (PDT) From: To: Subject: RE: PUD No.1 of Grays Harbor - ISDA request Cc:,, legal  Mime-Version: 1.0 Content-Type: text/plain; charset=us-ascii Content-Transfer-Encoding: 7bit Bcc:,, legal  X-From: Yoder, Christian  X-To: Rance, Susan  X-cc: St. Clair, Carol , Jones, Tana , Hall, Steve C. (Legal)  X-bcc:  X-Folder: \\TJONES (Non-Privileged)\\Jones, Tana\\Inbox X-Origin: Jones-T X-FileName: TJONES (Non-Privileged).pst Steve Hall and I do not prepare ISDAs.  They have to be prepared by the ISDA group in Houston.  A former ISDA trading attorney in Houston, Carol St. Claire, recently helped  us negotiate a couple of ISDAs with Benton and Franklin PUD's.  We should see if she can help us with this one, and if not, it has to go into the ISDA kingdom through a door opened by one Tana Jones.  Perhaps they can sort it out and let us know after reading this message.",
+    "source": "Enron Email Dataset"
+  },
+  {
+    "id": "email_369",
+    "category": "email",
+    "text": "Message-ID:  Date: Thu, 19 Oct 2000 00:48:00 -0700 (PDT) From: To: Subject: Re: Michael Brown Mime-Version: 1.0 Content-Type: text/plain; charset=us-ascii Content-Transfer-Encoding: 7bit X-From: Tana Jones X-To: Fiona Stewart X-cc:  X-bcc:  X-Folder: \\Tanya_Jones_Dec2000\\Notes Folders\\All documents X-Origin: JONES-T X-FileName: tjones.nsf for the note.  Just pass on my concern for Clarissa and hope for her  improvement. \tFiona Stewart \t10/19/2000 06:44 AM \t\t  \t\t To: \t\t cc:  \t\t Subject: Michael Brown Hi Tana Michael has asked me to get in touch with you to apologise for not contacting  you earlier and to say that unfortunately Clarissa is very ill and in and out  of hospital so he will not be able to contact for the next couple of weeks.   Consequently, he will not be in the office the  rest of the week and will  also not be in next week.  He is not picking up his emails but is picking up  voicemails.  If you would like me to pass any message on to him, please just  email me or call me on 0207 783 7212. Fiona",
+    "source": "Enron Email Dataset"
+  },
+  {
+    "id": "email_370",
+    "category": "email",
+    "text": "Message-ID:  Date: Mon, 7 Feb 2000 07:06:00 -0800 (PST) From: To: Subject: Re: Airfare Mime-Version: 1.0 Content-Type: text/plain; charset=us-ascii Content-Transfer-Encoding: 7bit X-From: Eric Bass X-To: Lisa Gillette X-cc:  X-bcc:  X-Folder: \\Eric_Bass_Dec2000\\Notes Folders\\All documents X-Origin: Bass-E X-FileName: ebass.nsf i'm ready.  we could try to do it over president's day at the earliest or the  last weekend in feb. who is going?     \tEnron North America Corp. \t \tFrom:  Lisa Gillette                           02/07/2000 02:56 PM \t To: Eric Bass/HOU/ cc:   Subject: Re: Airfare   that is awesome!!! we just need to set a date and have people commit, we  can't wait much longer. what do you think?     \tEnron North America Corp. \t \tFrom:  Eric Bass                           02/07/2000 02:18 PM \t To: Lisa Gillette/HOU/ cc:   Subject: Airfare Someone I know just put in a bid on priceline for a long weekend in colorado  and got tickets for $185 RT.  If we get enough people together and everyone  is flexible we could use priceline. -e",
+    "source": "Enron Email Dataset"
+  },
+  {
+    "id": "email_371",
+    "category": "email",
+    "text": "Message-ID:  Date: Fri, 1 Jun 2001 15:12:32 -0700 (PDT) From: To:,, Subject: Gas Options Mime-Version: 1.0 Content-Type: text/plain; charset=us-ascii Content-Transfer-Encoding: 7bit X-From: Hull, Bryan  X-To: Zipper, Andy , Shults, Bob , Diamond, Daniel  X-cc:  X-bcc:  X-Folder: \\Zipper, Andy\\Zipper, Andy\\Deleted Items X-Origin: ZIPPER-A X-FileName: Zipper, Andy.pst Since the last time this report was sent out we have had twelve new options trading companies: Bank of Montreal BP Corporation North America Inc. CMS Marketing, Services and Trading Company Duke Energy Marketing Limited Partnership Florida Power & Light Company OGE Energy Resources, Inc. PG&E Energy Trading-Gas Corporation Phibro Inc. The Chase Manhattan Bank TXU Energy Trading Company Enterprise Products Operating L.P. Empire District Electric Company On May 15, 2001 we had a high of 72 options transactions in one day, and for the week ending May 18, 2001 we had a record high 165 transactions. The month of May closed with a high of 535 transactions up from 323 in April and 332 in March. Below is the file with the graphs and details of this data.",
+    "source": "Enron Email Dataset"
+  },
+  {
+    "id": "email_372",
+    "category": "email",
+    "text": "Message-ID:  Date: Wed, 17 Oct 2001 09:19:34 -0700 (PDT) From: To:,,,,,,,, Subject: Follow up on the Nomination/Confirmation Process Cc:, Mime-Version: 1.0 Content-Type: text/plain; charset=us-ascii Content-Transfer-Encoding: 7bit Bcc:, X-From: Halpin, Tom  X-To: Thomas, Steve , Korbelik, Stephanie , Cohrs, Allen , Pritchard, John , Pavlou, Larry , Westfall, Roger , Oldenhuis, Frank , Dornan, Dari , Winckowski, Michele  X-cc: Blair, Lynn , Buchanan, John  X-bcc:  X-Folder: \\LBLAIR (Non-Privileged)\\Blair, Lynn\\Deleted Items X-Origin: Blair-L X-FileName: LBLAIR (Non-Privileged).pst John Buchanan and Lynn Blair have offered to do a follow up session from yesterday's brown bag lunch to walk through the nomination and confirmation process.  They have offered to come to Omaha on 10/29 or 10/30 for a face to face training session.",
+    "source": "Enron Email Dataset"
+  },
+  {
+    "id": "email_373",
+    "category": "email",
+    "text": "Message-ID:  Date: Wed, 28 Feb 2001 01:19:00 -0800 (PST) From: To:,,,,,,, Subject: Stewart Rosman deal - Port of Oakland Mime-Version: 1.0 Content-Type: text/plain; charset=us-ascii Content-Transfer-Encoding: 7bit X-From: Kate Symes X-To: Kimberly Hundl, Sharen Cason, Kimberly Allen, Kerri Thompson, Evelyn Metoyer, Stephanie Piwetz, Kim S Theriot, Melissa Ann Murphy X-cc:  X-bcc:  X-Folder: \\kate symes 6-27-02\\Notes Folders\\Sent X-Origin: SYMES-K X-FileName: kate symes 6-27-02.nsf Sharen told me this morning that you guys were waiting on a deal Stewart  Rosman did with Port of Oakland yesterday and wanted confirmed today. I've  spoken with a few people here and discerned that the deal wasn't in because  the counterparty wasn't in the system yet. I took a look and found that Port  of Oakland had been added, and entered the deal according to the terms  Stewart sent out in an e-mail yesterday. Deal number is 533916. for  waiting. Kate",
+    "source": "Enron Email Dataset"
+  },
+  {
+    "id": "email_374",
+    "category": "email",
+    "text": "Message-ID:  Date: Tue, 13 Jun 2000 11:05:00 -0700 (PDT) From: To: Subject: Calculation Agency Agreement Cc:,, Mime-Version: 1.0 Content-Type: text/plain; charset=us-ascii Content-Transfer-Encoding: 7bit Bcc:,, X-From: Carol St Clair X-To: X-cc: Mark Evans, Michael R Brown, Nora Dobin X-bcc:  X-Folder: \\Carol_StClair_Dec2000_1\\Notes Folders\\All documents X-Origin: STCLAIR-C X-FileName: cstclai.nsf Jeff: Has there been any discussion on our side with who the Calculation Agent  would be?  Normally, it is one of the swap counterparties.  Is this a role  that Enron Corp. can and should perform?  With respect to the Agreement, I am  looking at a June 2nd draft and was wondering if anyone has focused on the  language in Section 2, and in particular, Section 2(c)  and Section 7. Carol St. Clair EB 3892 713-853-3989 (Phone) 713-646-3393 (Fax)",
+    "source": "Enron Email Dataset"
+  },
+  {
+    "id": "email_375",
+    "category": "email",
+    "text": "Message-ID:  Date: Fri, 23 Mar 2001 09:29:00 -0800 (PST) From: To:, Subject: Neumin Unwind Mime-Version: 1.0 Content-Type: text/plain; charset=us-ascii Content-Transfer-Encoding: 7bit X-From: Jason R Williams X-To: Eric Boyt, V Charles Weldon X-cc:  X-bcc:  X-Folder: \\Charles_Wheldon_Nov2001\\Notes Folders\\Neumin X-Origin: WHELDON-C X-FileName: vweldon.nsf Eric and Charlie - Attached is the same Neumin spreadsheet that I sent you last week, showing  deals/volumes/prices per month.  I have added a new sheet titled 'Unwind'  that shows the volumes and prices for the unwind trade(s) that I want to  propose to Formosa.  You will see that I have held the unwind volumes  constant within each calendar year (e.g., the unwind volumes for Cal '01 are  8,000 MMBTU/day, the unwind volumes for Cal '02 are 19,000 MMBTU/day, etc.)  but the PRICES change each month, to correspond with the pricing of their  current \"hedge\" positions. Can you please prepare a proposal for Formosa based on the attached unwind  structure?  As you know, this unwind proposal would include an annuity  stream, payed out from the present through December 2006, that accounts for  the payment required to execute the unwind.  I think we should prepare a  quote whereby Formosa pays an equal monthly amount from the present through  December 2006 to amortize the unwind payment. I would like to get a proposal to Formosa ASAP; I told them that I would get  them a proposal on Monday.  Maybe that was a little aggressive, huh?  Please  let me know what you can do. Jay",
+    "source": "Enron Email Dataset"
+  },
+  {
+    "id": "email_376",
+    "category": "email",
+    "text": "Message-ID:  Date: Tue, 7 Aug 2001 09:03:24 -0700 (PDT) From: To:,, Subject: Fall APDA Conference Mime-Version: 1.0 Content-Type: text/plain; charset=us-ascii Content-Transfer-Encoding: 7bit X-From: Clynes, Terri  X-To: Lorenz, Matt , Sewell, Doug , Baughman Jr., Don  X-cc:  X-bcc:  X-Folder: \\ExMerge - Baughman Jr., Don\\Enron Power\\MAPP X-Origin: BAUGHMAN-D X-FileName: don baughman 6-25-02.PST Matt, Don, and Doug, As you all probably know by now, the Fall APDA Conference will be held in Watertown, South Dakota from September 20-23.   WAPA is hosting the conference this fall and they have created a website:  www.geocities.com/apdaconferences. The website contains agenda information, reservation materials, contacts, etc.  Please review and pass on to anyone I may have missed.  Don...I wasn't sure who you would want from your group to go, so please feel free to forward to your guys (the majority of people who attend this conference are hourly/daily traders). Let me know if you have any questions. Terri",
+    "source": "Enron Email Dataset"
+  },
+  {
+    "id": "email_377",
+    "category": "email",
+    "text": "Message-ID:  Date: Wed, 10 May 2000 10:14:00 -0700 (PDT) From: To: Subject: Re: Party for Marie Mime-Version: 1.0 Content-Type: text/plain; charset=us-ascii Content-Transfer-Encoding: 7bit X-From: Carol St Clair X-To: Sara Shackleton X-cc:  X-bcc:  X-Folder: \\Carol_StClair_Dec2000_1\\Notes Folders\\All documents X-Origin: STCLAIR-C X-FileName: cstclai.nsf Sara: I'm sure Suzanne would help assuming that she is on the invite list.  I would  but we are having a party at our house on the 3rd so I'll be busy taking care  of that. Carol \tSara Shackleton \t05/10/2000 03:05 PM \t\t  \t\t To: Mark Taylor/HOU/, Carol St Clair/HOU/, Susan  Bailey/HOU/, Susan Flynn/HOU/, Tana Jones/HOU/ \t\t cc:  \t\t Subject: Party for Marie Marie is fine with either Friday June 2 or 9.  So let's pick June 2 unless  someone has a conflict.  For quick planning (invitations, caterer, limo,  etc.), who wants to help?  Sara",
+    "source": "Enron Email Dataset"
+  },
+  {
+    "id": "email_378",
+    "category": "email",
+    "text": "Message-ID:  Date: Tue, 5 Mar 2002 14:12:40 -0800 (PST) From: To:,,,, paul.y',,,,, Subject: We're moving! Cc: Mime-Version: 1.0 Content-Type: text/plain; charset=us-ascii Content-Transfer-Encoding: 7bit Bcc: X-From: Watson, Kimberly  X-To: Lindberg, Lorraine , Lohman, TK , Lokay, Michelle , McConnell, Mark , Y'barbo, Paul , Harris, Steven , Donoho, Lindy , Robertson, Audrey , Moore, Jan , Centilli, James  X-cc: Scott, Donna  X-bcc:  X-Folder: \\Michelle_Lokay_Mar2002\\Lokay, Michelle\\Deleted Items X-Origin: Lokay-M X-FileName: mlokay (Non-Privileged).pst It's official!  We are moving next week on Thursday, March, 14!  Actually, we have to be packed up by close of business on Wednesday, March 13.  Ruthann will be calling each of you to discuss your move needs, such as your type of computer equipment, whether or not you are moving your chair, etc...Boxes will be coming soon. Please let Audrey or me know if you have any questions. Kim.",
+    "source": "Enron Email Dataset"
+  },
+  {
+    "id": "email_379",
+    "category": "email",
+    "text": "Message-ID:  Date: Wed, 28 Mar 2001 06:16:00 -0800 (PST) From: To: Subject: Re: REVISED Reg. Affairs Washington Staff Meeting- 12:30 p.m. Mime-Version: 1.0 Content-Type: text/plain; charset=us-ascii Content-Transfer-Encoding: 7bit X-From: Lysa Akin X-To: \"Jackie Gallagher\"  @ ENRON X-cc:  X-bcc:  X-Folder: \\Mary_Hain_Aug2000_Jul2001\\Notes Folders\\'sent mail X-Origin: Hain-M X-FileName: mary-hain.nsf Mary Hain has resigned her position with Enron.  Please remove her from all  your mail lists. Lysa Akin Gov't Affairs - Sr. Admin. Ass't.     \tEnron Capital & Trade Resources Corp. \t \tFrom:  \"Jackie Gallagher\"                             03/28/2001 08:16 AM \t To: , , ,  , ,  , , ,  , , ,  cc:   Subject: REVISED Reg. Affairs Washington Staff Meeting- 12:30 p.m. MEMORANDUM TO: Regulatory Affairs Committee-Board and Associate Members Only        Power Marketers Working Group FROM: Joe Hartsoe, Regulatory Affairs Committee Chair             Bob Reilley, Power Marketers Working Group Chair             Julie Simon, Vice President of Policy             Mark Bennett, Senior Manager of Policy             Erin Perrigo, Manager of Policy DATE: March 28, 2001 RE: REVISED Regulatory Affairs Washington Staff Meeting-       12:30 p.m. Due to a conflict with another meeting, the Washington Regulatory Staff  meeting for tomorrow has been pushed back to 12:30 p.m.  If you have any  questions, please contact Jackie Gallagher at 202-628-8200 or.",
+    "source": "Enron Email Dataset"
+  },
+  {
+    "id": "email_380",
+    "category": "email",
+    "text": "Message-ID:  Date: Mon, 9 Apr 2001 11:47:00 -0700 (PDT) From: To: Subject: Re: Doctor's Report Mime-Version: 1.0 Content-Type: text/plain; charset=us-ascii Content-Transfer-Encoding: 7bit X-From: Kay Mann X-To: X-cc:  X-bcc:  X-Folder: \\Kay_Mann_June2001_1\\Notes Folders\\All documents X-Origin: MANN-K X-FileName: kmann.nsf Actually you picked a good week to make the transition since we'll be at the  law conference Wed-Friday.  You can ease into things again without us  hovering. Kay on 04/09/2001 06:44:09 PM To: cc:   Subject: Re: Doctor's Report Boy, you sure know how to make me feel good!  Sheila  said she was so sad I wouldn't be back until the 30th.   The doc said my abs were good and tight, but I can't do  any ab work until one more month.  Wait until you see  me, I'm a shadow of my former self with all that  swelling gone.  I feel so much better.  I can't eat very  much any more either.  I can drink though!!!!!!!!! Well, if you aren't going to work until I get back, then  you need to come over and we can go hang out!!!!  Wouldn't that be a hoot!",
+    "source": "Enron Email Dataset"
+  },
+  {
+    "id": "email_381",
+    "category": "email",
+    "text": "Message-ID:  Date: Fri, 11 May 2001 07:07:00 -0700 (PDT) From: To: Subject: FW: Enron Contacts Mime-Version: 1.0 Content-Type: text/plain; charset=ANSI_X3.4-1968 Content-Transfer-Encoding: quoted-printable X-From: Cameron Sellers  X-To: \"''\"  X-cc:  X-bcc:  X-Folder: \\Jeff_Dasovich_June2001\\Notes Folders\\Notes inbox X-Origin: DASOVICH-J X-FileName: jdasovic.nsf I am trying to get in touch with you about the dome and some other stuff.? = I=20 have attached the contact info for the people we have started talking to at= =20 Enron.? We are in the process of putting a demo together.? Maybe you can lo= ok=20 into this a little before our dinner next week?? ? I hope we see you on Sunday (PP mentioned you might come to Napa for mommy= =20 day)=01(?? ? CALL ME!! ? Cameron Sellers Vice President, Business Development PERFECT 1860 Embarcadero Road - Suite 210 Palo Alto, CA 94303 650.798.3366 (direct dial) 650.269.3366 (cell) 650.858.1095 (fax) ?",
+    "source": "Enron Email Dataset"
+  },
+  {
+    "id": "email_382",
+    "category": "email",
+    "text": "Message-ID:  Date: Sun, 14 May 2000 14:14:00 -0700 (PDT) From: To: Subject: Enron Mid-Year 2000 Performance Management Process Mime-Version: 1.0 Content-Type: text/plain; charset=us-ascii Content-Transfer-Encoding: 7bit X-From: \"\" X-To: X-cc:  X-bcc:  X-Folder: \\Larry_Campbell_Dec2000\\Notes Folders\\Prc X-Origin: Campbell-L X-FileName: lcampbel.nsf Enron's Mid-Year 2000 Performance Management Process has begun.  During this  process, you will be required to select suggested reviewers who can provide  performance related feedback on you and you may also be requested to provide  feedback on fellow employees.  You will need to do this  by accessing the  Performance Management System (PEP) at  . Any questions should be directed to the PEP Help Desk at the following  numbers: In the U.S.:  1-713-853-4777, Option 4 In Europe:  44-207-783-4040, Option 4 In Canada:  1-403-974-6724 (Canada employees only) Or e-mail your questions to: To log on to PEP, enter your User ID and password provided below. Once you have logged on, you will be immediately prompted to change to a  secure password. Your User ID & Password are: User ID: LCAMPBE7281 Password: WELCOME",
+    "source": "Enron Email Dataset"
+  },
+  {
+    "id": "email_383",
+    "category": "email",
+    "text": "Message-ID:  Date: Thu, 24 May 2001 12:05:28 -0700 (PDT) From: To:, Subject: EOL product description for Sonat tier 2 gas Cc: Mime-Version: 1.0 Content-Type: text/plain; charset=us-ascii Content-Transfer-Encoding: 7bit Bcc: X-From: Casas, Joe A.  X-To: Moorer, Torrey , Cass, Robert B.  X-cc: Neal, Scott  X-bcc:  X-Folder: \\Neal, Scott\\Neal, Scott\\Inbox X-Origin: NEAL-S X-FileName: Neal, Scott.pst Torrey, \tWell we finally have a final product description for our Sonat tier 2 product.  Tami DePaolis and Jeff Hodge have given there OK. \tAttached is the description along with some additional language for penalties that need to be included in the description and confirmations \tas well.  If you have any questions please give me or Tammi a call. \tthanx",
+    "source": "Enron Email Dataset"
+  },
+  {
+    "id": "email_384",
+    "category": "email",
+    "text": "Message-ID:  Date: Thu, 14 Sep 2000 08:59:00 -0700 (PDT) From: To:,, Subject: Inventory Storage Transfer Cc: Mime-Version: 1.0 Content-Type: text/plain; charset=us-ascii Content-Transfer-Encoding: 7bit Bcc: X-From: Chris Germany X-To: Alicia Perkins, Dick Jenkins, Kimat Singla X-cc: Joann Collins X-bcc:  X-Folder: \\Chris_Germany_Dec2000\\Notes Folders\\All documents X-Origin: Germany-C X-FileName: cgerman.nsf AND, I want to hold back $79,000 of revenue on deal #401601. The customer price is $5.7025 which is based on the following Sales Price  $5.4850 Transport to Stoi $.1526  (I included $.0147 too much by accident) Storge Injection  $.0249 Capacity Demand $.0400 Total Price  $5.7025 We will overinject in October by about 362,000 dth to max out storage by Oct  31.  Since we will not estimate the transport expense until Oct, I want to  hold back roughly 362,000 dth x $.2175 = $79,000.00  (close enough). Forwarded by Chris Germany/HOU/ECT on 09/14/2000 03:47  PM",
+    "source": "Enron Email Dataset"
+  },
+  {
+    "id": "email_385",
+    "category": "email",
+    "text": "Message-ID:  Date: Tue, 27 Mar 2001 04:54:00 -0800 (PST) From: To: Subject: Re: Deal 428861.01 Mime-Version: 1.0 Content-Type: text/plain; charset=us-ascii Content-Transfer-Encoding: 7bit X-From: Kate Symes X-To: Stephanie Piwetz X-cc:  X-bcc:  X-Folder: \\kate symes 6-27-02\\Notes Folders\\Sent X-Origin: SYMES-K X-FileName: kate symes 6-27-02.nsf We just found that the other two options we entered yesterday were NOT, in  fact, round-the-clock deals. We've changed 547682.2 to on peak hours only,  and 426659.2 to off peak hours only. All three deals will be included on our  deal correction report, but I thought I'd give you a heads up. Kate Stephanie Piwetz   03/27/2001 11:52 AM To: Kate Symes/PDX/ cc:   Subject: Deal 428861.01 Kate, just happened to notice when they entered the leg 2 of the deal  428861.01.... is it suppose to be 7days a week, 24 hours a day,  the  428861.01 is off peak hours only.",
+    "source": "Enron Email Dataset"
+  },
+  {
+    "id": "email_386",
+    "category": "email",
+    "text": "Message-ID:  Date: Tue, 5 Dec 2000 03:46:00 -0800 (PST) From: To: Subject: PRC / REORGS Mime-Version: 1.0 Content-Type: text/plain; charset=us-ascii Content-Transfer-Encoding: 7bit X-From: Mark Evans X-To: Mark E Haedicke X-cc:  X-bcc:  X-Folder: \\Mark_Haedicke_Dec2000_1\\Notes Folders\\Notes inbox X-Origin: Haedicke-M X-FileName: mhaedic.nsf Mark, Firstly, for the email on the reorganised EWS legal group. I am  delighted to be part of the legal policy group and look forward to working  more closely with you in connection with that and with Enron Wholesale  Services generally. Secondly, I have faxed to you (to 001 713 646 2600) PRC feedback on our VP  candidates: Jon Chapman, Justin Boyd and Marcus Von Bock. I am happy to  discuss any of this with you if you so wish. If you need the same in respect  of me, no doubt you can get that from Michael Brown. Thirdly, I attach for your information the Enron Europe Legal Department  Reorg Announcement which I hope to issue on Wednesday, together with my  working version of the org. chart.",
+    "source": "Enron Email Dataset"
+  },
+  {
+    "id": "email_387",
+    "category": "email",
+    "text": "Message-ID:  Date: Tue, 2 Oct 2001 05:58:11 -0700 (PDT) From: To: Subject: RE: TW - Ken Power's reports Mime-Version: 1.0 Content-Type: text/plain; charset=us-ascii Content-Transfer-Encoding: 7bit X-From: Donoho, Lindy  X-To: Watson, Kimberly  X-cc:  X-bcc:  X-Folder: \\LDONOHO (Non-Privileged)\\Sent Items X-Origin: Donoho-L X-FileName: LDONOHO (Non-Privileged).pst Yes, I set it up with Ken & Dan.  We had a good discussion.  I'm going up for the weekly Imbalance meeting today to discuss some things with Darrell and Richard (Dan will be there).  Tracy & I are also meeting with Dan & John on Thursday to try to \"diagram\" some of the accounting process with imbalances, linepack & fuel (LOOK OUT!).  When we get the explanation organized, we will be presenting it to all y'all =) I hope you had a nice weekend in San Antonio.  I know the weather was wonderful.  Hope Hershal is doing better. Take Care, Lindy",
+    "source": "Enron Email Dataset"
+  },
+  {
+    "id": "email_388",
+    "category": "email",
+    "text": "Message-ID:  Date: Wed, 13 Sep 2000 10:35:00 -0700 (PDT) From: To: Subject: Amoco Energy Trading Cc:, Mime-Version: 1.0 Content-Type: text/plain; charset=us-ascii Content-Transfer-Encoding: 7bit Bcc:, X-From: Eric Gillaspie X-To: Lauri A Allen X-cc: Jackie Morgan, Gerald Nemec X-bcc:  X-Folder: \\Gerald_Nemec_Dec2000_June2001_1\\Notes Folders\\Notes inbox X-Origin: NEMEC-G X-FileName: gnemec.nsf Lauri, According to Jackie's records she does not have the following confirmation  with Amoco Energy Trading:    Confirm K#: 96022142  Master K#:96021437 (311 Service)   Confirm Term: 7/1/1999-6/30/2000 Would you please check your records to see if you have a copy of it, and if  not, send me the additional terms (DP, RP, MDQ, Fee, etc.) so I can create  the confirm. Eric Gillaspie 713-345-7667 Enron Building 3886",
+    "source": "Enron Email Dataset"
+  },
+  {
+    "id": "email_389",
+    "category": "email",
+    "text": "Message-ID:  Date: Thu, 26 Jul 2001 14:57:54 -0700 (PDT) From: houston  To: Subject: RE: Gas Deliveries - Citizens Valencia Power Plant Mime-Version: 1.0 Content-Type: text/plain; charset=us-ascii Content-Transfer-Encoding: 7bit X-From: Ward, Kim S (Houston)  X-To: '@ENRON'  X-cc:  X-bcc:  X-Folder: \\KWARD (Non-Privileged)\\Ward, Kim S (Houston)\\Sent Items X-Origin: Ward-K X-FileName: KWARD (Non-Privileged).pst John, Our primary delivery point on the EP capacity is the border so it would have to flow as an alternative delivery location and would be subject to cuts.  I would like to talk to you in more detail about this with the assistance of Stephanie Miller who is the tport expert in our group.  Then you can decide how you would like to persue.  Stephanie will be available in the morning before 11:00 am CDT. Please give me a call when you can - Kim",
+    "source": "Enron Email Dataset"
+  },
+  {
+    "id": "email_390",
+    "category": "email",
+    "text": "Message-ID:  Date: Sun, 12 Mar 2000 07:16:00 -0800 (PST) From: To:,, Subject: Credit Derivatives Reference Entities Cc: Mime-Version: 1.0 Content-Type: text/plain; charset=us-ascii Content-Transfer-Encoding: 7bit Bcc: X-From: Mark Taylor X-To: Bryan Seyfried, Paul Simons, Edmund Cooper X-cc: Mark Dilworth X-bcc:  X-Folder: \\Mark_Taylor _Dec_2000\\Notes Folders\\All documents X-Origin: Taylor-M X-FileName: mtaylor.nsf I have received reactions from several of the other Enron operating companies  (EBS, EES and GPG) requesting that the following entities be placed on the  Restricted List for credit derivatives Reference Entities: AT&T Corp. Baltimore Gas & Electric Company Bell Atlantic Corporation BellSouth Corp. Cable & Wireless plc Comdisco, Inc. Cox Communications, Inc. Intel IBM Lucent Technologies Monsanto SBC Communications Sun Microsystems Union Carbide Viacom Wisconsin Electric Power Company Wisconsin Gas Company  These companies were those on the attached list (forwarded to the various  General Counsels on 2/28) which were found to be objectionable for one reason  or another.  I have not yet heard from the former EI companies.",
+    "source": "Enron Email Dataset"
+  },
+  {
+    "id": "email_391",
+    "category": "email",
+    "text": "Message-ID:  Date: Wed, 20 Dec 2000 00:50:00 -0800 (PST) From: To: Subject: New Albany Booking Cc:,, Mime-Version: 1.0 Content-Type: text/plain; charset=us-ascii Content-Transfer-Encoding: 7bit Bcc:,, X-From: Kevin M Presto X-To: John J Lavorato X-cc: Rogers Herndon, Jenny Latham, Don Miller X-bcc:  X-Folder: \\Kevin_Presto_Nov2001\\Notes Folders\\All documents X-Origin: PRESTO-K X-FileName: kpresto.nsf Below are the assumptions agreed for booking the New Albany spread option: EPMI East Power Book pays New Albany a fixed demand charge for the next 5  years as follows: 2001 $4.72/k/mo 2002 $4.63/kw/mo 2003 $4.54/kw/mo 2004 $4.45/kw/mo 2005 $4.36/kw/mo As consideration for the demand charge, EPMI has the right to \"toll\" gas  through the facility and receive power in return at a fixed heat rate  conversion factor of 12.5 MMBtu/Mwh.   In addition EPMI will pay New Albany  $1000 per start (for maintenance reserve fund) and $1.00/Mwh for variable  operating costs. The New Albany, LLC will receive an 8% return on capital.   Book value will  be depreciated from $409/kW basis on 1/1/2001 to $336/kW on 12/31/2005. The facility output assumption is 360 MW with a 95% availability in the  summer and 75% availability in the winter. Jenny - Please revise the booking of New Albany in Rogers book effective  tonight.",
+    "source": "Enron Email Dataset"
+  },
+  {
+    "id": "email_392",
+    "category": "email",
+    "text": "Message-ID:  Date: Mon, 18 Dec 2000 23:38:00 -0800 (PST) From: To: Subject: Re: Thursday Night Mime-Version: 1.0 Content-Type: text/plain; charset=us-ascii Content-Transfer-Encoding: 7bit X-From: Kay Mann X-To: Carlos Sole X-cc:  X-bcc:  X-Folder: \\Kay_Mann_June2001_3\\Notes Folders\\Sent X-Origin: MANN-K X-FileName: kmann.nsf Michael is sick with some nasty virus.  I'm a bit afraid to commit until he  starts looking better.  Poor kid had strep last week. Maybe he'll perk up by Thursday, but the doctor says it is a 10 day ordeal.    I bet you would just as soon not be exposed to it. Kay From: Carlos on 12/18/2000 07:05 PM To: Kay Mann/Corp/ cc:   Subject: Thursday Night How is Thursday night for a family dinner as we discussed.  Lastly, no news  from anyone today on my front.  I'll call Michelle on Wednesday if I don't  hear anything tomorrow.",
+    "source": "Enron Email Dataset"
+  },
+  {
+    "id": "email_393",
+    "category": "email",
+    "text": "Message-ID:  Date: Fri, 18 May 2001 17:29:00 -0700 (PDT) From: To: Subject: Better End to Long Week Cc: Mime-Version: 1.0 Content-Type: text/plain; charset=ANSI_X3.4-1968 Content-Transfer-Encoding: 7bit Bcc: X-From: Jean Mrha  X-To: Louise Kitchen  X-cc: Tammie Schoppe  X-bcc:  X-Folder: \\ExMerge - Kitchen, Louise\\'Americas\\Mrha X-Origin: KITCHEN-L X-FileName: louise kitchen 2-7-02.pst Louise, Of course, as soon as I send off my email to you ... things change, but for the better. ?\tI spoke to Nowlan and he is going to pay me by the end of next week and take me out for drinks. ?\tLavorato increased the VAR for the Wellhead Desk to $250 K.  In addition, he is having Gossett et. al fix the issues that were distorting Grass's VAR position. ?\tLavorato spoke to Bernie Aucoin to focus resources to price ECS deals.  He feels that if EWS is wearing the risk associated with retail transactions, ECS should not have to interface with EES originators at all.  In addition, he also understands that horsepower transactions have a combination of retail and wholesale commodity components. I am off to the 2:30 staff meeting.  Hope your day is well.  I will give you an update on the other issues next week. Jean",
+    "source": "Enron Email Dataset"
+  },
+  {
+    "id": "email_394",
+    "category": "email",
+    "text": "Message-ID:  Date: Mon, 27 Nov 2000 01:41:00 -0800 (PST) From: To:,,,,,,,,,,,, Subject: Wire Transfers and Requests Cc:,,, Mime-Version: 1.0 Content-Type: text/plain; charset=us-ascii Content-Transfer-Encoding: 7bit Bcc:,,, X-From: Brad Carey X-To: Stacy Hardy, Rosalyn Lum, Laynie East, Lisa Best, Lisa King, Kevin Jolly, Tammy Barta, Brian Schwertner, Susan Rance, Stephen Wolfe, Kristi Fredericks, Rufino Doroteo, Dana Davis X-cc: Marnie Lamb, Pam Becton, Michael S Galvan, Hope Vargas X-bcc:  X-Folder: \\Dana_Davis_Dec2000\\Notes Folders\\All documents X-Origin: Davis-D X-FileName: ddavis2.nsf Hold off on pulling together this information.  I need to have several  clarifying questions answered by AA and also to sit down with Dana tomorrow  to see if she can help me with most of the exercise.  I will need all of you  to fill in any potential gaps and verify the information I pull together  before I submit it to AA. Brad",
+    "source": "Enron Email Dataset"
+  },
+  {
+    "id": "email_395",
+    "category": "email",
+    "text": "Message-ID:  Date: Tue, 1 May 2001 01:59:00 -0700 (PDT) From: To:,,, Subject: Preapproved Clickpaper Counterparties in Profile Manager Cc:,,,, Mime-Version: 1.0 Content-Type: text/plain; charset=us-ascii Content-Transfer-Encoding: 7bit Bcc:,,,, X-From: Nicole Hunter X-To: Aparna Rajaram, Walter Guidroz, Tana Jones, Karen Lambert X-cc: Frank L Davis, Jennifer deBoisblanc Denny, Lisa Lees, Stephanie Sever, Gary Nelson X-bcc:  X-Folder: \\Tanya_Jones_June2001\\Notes Folders\\All documents X-Origin: JONES-T X-FileName: tjones.nsf The following pre-approved counterparties have been added to datamanager with  Clickpaper profiles and will also be hitting you work queues in profile  manager.  These profiles will need to be duplicated in profile manager to  clear the queue. Please do not hesitate to call me with any questions. Approval Date CPID  Counterparty 4 - 30 -2001 96256  Scherman Pulp & Paper, Inc. 4  -30 -2001 77779  Compaq Computer Corporation 4 - 30 -2001 92246  Tzeng Long USA, Inc. Nicole Hunter Clickpaper Support Team 713-345-8438",
+    "source": "Enron Email Dataset"
+  },
+  {
+    "id": "email_396",
+    "category": "email",
+    "text": "Message-ID:  Date: Fri, 20 Apr 2001 05:52:00 -0700 (PDT) From: To:,,,,,,,,,,,,,,,,,,, Subject: DO NOT SEND TRADERSNEWS INDEX Mime-Version: 1.0 Content-Type: text/plain; charset=us-ascii Content-Transfer-Encoding: 7bit X-From: Don Baughman X-To: Kayne Coulter, John Kinser, Patrick Hanse, Rudy Acevedo, Larry Jester, Juan Hernandez, Joe Errigo, Dean Laurent, Keller Mayeaux, Doug Miller, Chad Starnes, Joe Stepenovitch, Larry F Campbell, Christopher Watts, Juan Padron, Steve Olinde, Mauricio Trejo, Benjamin Rogers, Dustin Collins, Narsimha Misra X-cc:  X-bcc:  X-Folder: \\Larry_Campbell_Jun2001\\Notes Folders\\Discussion threads X-Origin: Campbell-L X-FileName: lcampbel.nsf Amigos, Please DO NOT SEND TradersNews Indices, until further notice.  That goes for  ALL regions, NO THURSDAY, FRIDAY, WEEKEND etc. Forward all inquiries to me.  If I am not in the office, tell them to call me  on my cell phone. Don  (281) 787-0029 Cell (281) 557-2068 Home",
+    "source": "Enron Email Dataset"
+  },
+  {
+    "id": "email_397",
+    "category": "email",
+    "text": "Message-ID:  Date: Wed, 22 Nov 2000 06:24:00 -0800 (PST) From: To:,, Subject: TXU Fuels / SDS Nomination for December 2000 Cc:,,, Mime-Version: 1.0 Content-Type: text/plain; charset=us-ascii Content-Transfer-Encoding: 7bit Bcc:,,, X-From: \"Charlie Stone\"  X-To:,, X-cc: \"Ronnie Skerik\" , \"Melissa Jones\" , \"Gary Green\" , \"David Avila\"  X-bcc:  X-Folder: \\Darren_Farmer_Dec2000\\Notes Folders\\Discussion threads X-Origin: Farmer-D X-FileName: dfarmer.nsf Attached is the December 2000 nomination for our takes under the Gas Sales and Purchase Contract between TXU Fuel (previously TUFCO) and HPL Resources Co., (TXU Fuel Contr. #3949), as well as our December 2000 nomination for takes  under the Gas Sales and Purchase Contract between TXU Fuel and SDS.  Please advise should you have any questions concerning the attached. CCS (See attached file: MinHPLN00.xls)       (See attached file: SDSNOM.xls)  - MinHPLN00.xls  - SDSNOM.xls",
+    "source": "Enron Email Dataset"
+  },
+  {
+    "id": "email_398",
+    "category": "email",
+    "text": "Message-ID:  Date: Wed, 28 Jun 2000 01:59:00 -0700 (PDT) From: To:,,,,,,,,,,,,, Subject: Transaction Types in SAP Cc:,, Mime-Version: 1.0 Content-Type: text/plain; charset=us-ascii Content-Transfer-Encoding: 7bit Bcc:,, X-From: Pam Becton X-To: Stacy Hardy, Lisa King, Lisa Best, Tammy Barta, Laynie East, Michael Kolman, Rosalyn Lum, Binh Pham, Rebecca Sanchez, Dana Davis, Rufino Doroteo, Kevin Jolly, Brad Carey, Brian Schwertner X-cc: Hope Vargas, Angeles Beltri, Michael S Galvan X-bcc:  X-Folder: \\Dana_Davis_Dec2000\\Notes Folders\\Discussion threads X-Origin: Davis-D X-FileName: ddavis2.nsf FYI - Here is the list of the transaction types we will be using in SAP with  the numbers assigned to them in production.  A transaction type will be  required anytime we book to the Merchant Investment general ledger account  24091000.   E09 Contribution E10 Distribution E11 Capitalized Interest E12 PIK Dividends E13 Fair Value Adjustment E14 Fair Value Adjustment - Permanent Write Down E15 Fair Value Adjustment - Sale of Asset E16 Fair Value Adjustment - Write off Loan",
+    "source": "Enron Email Dataset"
+  },
+  {
+    "id": "email_399",
+    "category": "email",
+    "text": "Message-ID:  Date: Tue, 20 Mar 2001 03:25:00 -0800 (PST) From: To: Subject:  Mime-Version: 1.0 Content-Type: text/plain; charset=us-ascii Content-Transfer-Encoding: 7bit X-From: Phillip K Allen X-To: X-cc:  X-bcc:  X-Folder: \\Phillip_Allen_June2001\\Notes Folders\\Discussion threads X-Origin: Allen-P X-FileName: pallen.nsf Greg, just a note to let you know I will be out of the office Wed(3/21) until  Thurs(3/23).  The kids are on spring break.  I will be in San Marcos and you  can reach me on my cell phone 713-410-4679 or email. I was planning on stopping by to see Hugo Elizondo on Thursday to drop off a  check and give him the green light to file for replatting.  What will change  if we want to try and complete the project in phases.  Does he need to change  what he is going to submit to the city. I spoke to Gordon Kohutek this morning.  He was contracted to complete the  soils study.  He says he will be done with his report by the end of the  week.  I don't know who needs this report.  I told Gordon you might call to  inquire about what work he performed. His number is 512-930-5832. We spoke on the phone about most of these issues. Talk to you later. Phillip",
+    "source": "Enron Email Dataset"
+  }
+]

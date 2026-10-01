@@ -1,0 +1,56 @@
+{
+  "source_repository": "https://github.com/Dongping-Chen/MixSet",
+  "source_revision": "f37eea51fcb7fd490391431c52adf79848cb1e89",
+  "source_directory": "data/MixSet/separated_files",
+  "source_rows_per_file": 300,
+  "test_ids": [
+    43, 44, 45, 46, 47, 48, 49, 50, 51, 52,
+    86, 87, 88, 89, 90, 91, 92, 93, 94, 95,
+    137, 138, 139, 140, 141, 142, 143, 144, 145, 146,
+    188, 189, 190, 191, 192, 193, 194, 195, 196, 197,
+    239, 240, 241, 242, 243, 244, 245, 246, 247, 248,
+    291, 292, 293, 294, 295, 296, 297, 298, 299, 300
+  ],
+  "files": [
+    {
+      "source_file": "2llama_complete.json",
+      "revision_field": "llama_complete_output",
+      "test_sha256": "cc1516f106eb6dc224f690fd563f9d79fd5be2e6ac79a49ce9849f81d84b81e6"
+    },
+    {
+      "source_file": "2llama_polish_sentence.json",
+      "revision_field": "llama_polish_sentence_output",
+      "test_sha256": "03ad7e1d0eb66f40067166e9b5708034ad55b22afd155c2d2457191f178737d5"
+    },
+    {
+      "source_file": "2llama_polish_token.json",
+      "revision_field": "llama_polish_token_output",
+      "test_sha256": "ccbd9edcf7e238d6c7e37dec10602060ae9e899f32a387efa5589c44c522c4ef"
+    },
+    {
+      "source_file": "2llama_rewrite.json",
+      "revision_field": "llama_rewrite_output",
+      "test_sha256": "8e2e563765db6b57872e7ce44729057e8426c380ec4e79c3912da99642048ed8"
+    },
+    {
+      "source_file": "gpt4_complete.json",
+      "revision_field": "gpt4_complete_output",
+      "test_sha256": "c4d7f57df28aabacb28f63fb25510672ec8dee4442f2555d96dda769e415cf7e"
+    },
+    {
+      "source_file": "gpt4_polish_sentence.json",
+      "revision_field": "gpt4_polish_sentence_output",
+      "test_sha256": "7726580c690410b1c4b5856ff3b09b5d5a9f3e0d920847133e3c1fba50ad404a"
+    },
+    {
+      "source_file": "gpt4_polish_token.json",
+      "revision_field": "gpt4_polish_token_output",
+      "test_sha256": "53738f9b54f696e8fbcc4fc1c2b65c062f30b87199b7db4f72ea53ecc7d5f4ac"
+    },
+    {
+      "source_file": "gpt4_rewrite.json",
+      "revision_field": "gpt4_rewrite_output",
+      "test_sha256": "cf8473947e207a9405b6383875447af9d3aeaecff5775599eb4171a94fe35cc7"
+    }
+  ]
+}
